@@ -1,0 +1,1157 @@
+# JMH version: 1.21
+# VM version: JDK 16.0.1, Java HotSpot(TM) 64-Bit Server VM, 16.0.1+9-24
+# VM invoker: C:\Program Files\Java\jdk16.0.1\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8 -XX:+ShowCodeDetailsInExceptionMessages
+# Warmup: 1 iterations, single-shot each
+# Measurement: 1 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: com.example.MyBenchmark.case01_FluxBaseline
+
+# Run progress: 0.00% complete, ETA 00:00:00
+# Fork: 1 of 1
+# Warmup Iteration   1: 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.0.RELEASE)
+
+2021-12-15 12:53:03.145  INFO 7500 --- [           main] com.example.DemoApplication              : Starting DemoApplication v0.0.1-SNAPSHOT on v1-0064 with PID 7500 (C:\DEVELOPMENT\SPRING\WORKSPACE_STS3\spring-boot-startup-mybench-master\demo-flux\target\demo-flux-0.0.1-SNAPSHOT.jar started by Vikrant Verma in C:\DEVELOPMENT\SPRING\WORKSPACE_STS3\spring-boot-startup-mybench-master\benchmarks\target)
+2021-12-15 12:53:03.243  INFO 7500 --- [           main] com.example.DemoApplication              : No active profile set, falling back to default profiles: default
+2021-12-15 12:53:19.288  WARN 7500 --- [           main] reactor.netty.tcp.TcpResources           : [http] resources will use the default LoopResources: DefaultLoopResources {prefix=reactor-http, daemon=true, selectCount=8, workerCount=8}
+2021-12-15 12:53:19.288  WARN 7500 --- [           main] reactor.netty.tcp.TcpResources           : [http] resources will use the default ConnectionProvider: PooledConnectionProvider {name=http, poolFactory=reactor.netty.resources.ConnectionProvider$$Lambda$252/0x0000000800e916b0@2e3967ea}
+2021-12-15 12:53:21.760  INFO 7500 --- [           main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 57044
+2021-12-15 12:53:21.771  INFO 7500 --- [           main] com.example.DemoApplication              : Started DemoApplication in 23.446 seconds (JVM running for 28.942)
+
+29.610 s/op
+Iteration   1: 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.0.RELEASE)
+
+2021-12-15 12:53:22.882  INFO 9072 --- [           main] com.example.DemoApplication              : Starting DemoApplication v0.0.1-SNAPSHOT on v1-0064 with PID 9072 (C:\DEVELOPMENT\SPRING\WORKSPACE_STS3\spring-boot-startup-mybench-master\demo-flux\target\demo-flux-0.0.1-SNAPSHOT.jar started by Vikrant Verma in C:\DEVELOPMENT\SPRING\WORKSPACE_STS3\spring-boot-startup-mybench-master\benchmarks\target)
+2021-12-15 12:53:22.885  INFO 9072 --- [           main] com.example.DemoApplication              : No active profile set, falling back to default profiles: default
+2021-12-15 12:53:31.669  WARN 9072 --- [           main] reactor.netty.tcp.TcpResources           : [http] resources will use the default LoopResources: DefaultLoopResources {prefix=reactor-http, daemon=true, selectCount=8, workerCount=8}
+2021-12-15 12:53:31.669  WARN 9072 --- [           main] reactor.netty.tcp.TcpResources           : [http] resources will use the default ConnectionProvider: PooledConnectionProvider {name=http, poolFactory=reactor.netty.resources.ConnectionProvider$$Lambda$252/0x0000000800e988a8@73e9cf30}
+2021-12-15 12:53:32.481  INFO 9072 --- [           main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 57064
+2021-12-15 12:53:32.484  INFO 9072 --- [           main] com.example.DemoApplication              : Started DemoApplication in 9.957 seconds (JVM running for 10.455)
+
+10.661 s/op
+
+
+
+# JMH version: 1.21
+# VM version: JDK 16.0.1, Java HotSpot(TM) 64-Bit Server VM, 16.0.1+9-24
+# VM invoker: C:\Program Files\Java\jdk16.0.1\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8 -XX:+ShowCodeDetailsInExceptionMessages
+# Warmup: 1 iterations, single-shot each
+# Measurement: 1 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: com.example.MyBenchmark.case02_Web
+
+# Run progress: 6.67% complete, ETA 00:10:51
+# Fork: 1 of 1
+# Warmup Iteration   1: 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.0.RELEASE)
+
+2021-12-15 12:53:37.650  INFO 9212 --- [           main] com.example.DemoApplication              : Starting DemoApplication v0.0.1-SNAPSHOT on v1-0064 with PID 9212 (C:\DEVELOPMENT\SPRING\WORKSPACE_STS3\spring-boot-startup-mybench-master\demo-web\target\demo-web-0.0.1-SNAPSHOT.jar started by Vikrant Verma in C:\DEVELOPMENT\SPRING\WORKSPACE_STS3\spring-boot-startup-mybench-master\benchmarks\target)
+2021-12-15 12:53:37.654  INFO 9212 --- [           main] com.example.DemoApplication              : No active profile set, falling back to default profiles: default
+2021-12-15 12:53:50.621  INFO 9212 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2021-12-15 12:53:50.728  INFO 9212 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-15 12:53:50.729  INFO 9212 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2021-12-15 12:53:50.772  INFO 9212 --- [           main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk16.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\DEVELOPMENT\Gradle\gradle-7.3.1\bin;C:\Program Files\Java\jdk1.8.0_77\bin;C:\ProgramData\Oracle\Java\javapath;C:\DEVELOPMENT\ECLIPSE\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk16.0.1\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Liquid Technologies\Liquid XML 2015\XmlDataBinder13\Redist13\cpp\win32\bin;C:\Program Files\PuTTY\;C:\Program Files (x86)\OpenSSL-Win32\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\DEVELOPMENT\PYTHON\Python38\Scripts\;C:\DEVELOPMENT\PYTHON\Python38\;C:\DEVELOPMENT\ECLIPSE\Python3\Scripts\;C:\DEVELOPMENT\ECLIPSE\Python3\;C:\DEVELOPMENT\PYTHON\PyCharm 2021.1.2\bin;;.]
+2021-12-15 12:53:51.026  INFO 9212 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-12-15 12:53:51.026  INFO 9212 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 13057 ms
+2021-12-15 12:53:51.133  INFO 9212 --- [           main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2021-12-15 12:53:51.137  INFO 9212 --- [           main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-12-15 12:53:51.137  INFO 9212 --- [           main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-12-15 12:53:51.137  INFO 9212 --- [           main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2021-12-15 12:53:51.137  INFO 9212 --- [           main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2021-12-15 12:53:51.798  INFO 9212 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-15 12:53:52.287  INFO 9212 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 57068 (http) with context path ''
+2021-12-15 12:53:52.309  INFO 9212 --- [           main] com.example.DemoApplication              : Started DemoApplication in 16.884 seconds (JVM running for 18.831)
+
+19.031 s/op
+Iteration   1: 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.0.RELEASE)
+
+2021-12-15 12:53:53.321  INFO 11348 --- [           main] com.example.DemoApplication              : Starting DemoApplication v0.0.1-SNAPSHOT on v1-0064 with PID 11348 (C:\DEVELOPMENT\SPRING\WORKSPACE_STS3\spring-boot-startup-mybench-master\demo-web\target\demo-web-0.0.1-SNAPSHOT.jar started by Vikrant Verma in C:\DEVELOPMENT\SPRING\WORKSPACE_STS3\spring-boot-startup-mybench-master\benchmarks\target)
+2021-12-15 12:53:53.324  INFO 11348 --- [           main] com.example.DemoApplication              : No active profile set, falling back to default profiles: default
+2021-12-15 12:54:02.516  INFO 11348 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2021-12-15 12:54:02.536  INFO 11348 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-15 12:54:02.536  INFO 11348 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/9.0.12
+2021-12-15 12:54:02.547  INFO 11348 --- [           main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk16.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\DEVELOPMENT\Gradle\gradle-7.3.1\bin;C:\Program Files\Java\jdk1.8.0_77\bin;C:\ProgramData\Oracle\Java\javapath;C:\DEVELOPMENT\ECLIPSE\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk16.0.1\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Liquid Technologies\Liquid XML 2015\XmlDataBinder13\Redist13\cpp\win32\bin;C:\Program Files\PuTTY\;C:\Program Files (x86)\OpenSSL-Win32\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseSVN\bin;C:\DEVELOPMENT\PYTHON\Python38\Scripts\;C:\DEVELOPMENT\PYTHON\Python38\;C:\DEVELOPMENT\ECLIPSE\Python3\Scripts\;C:\DEVELOPMENT\ECLIPSE\Python3\;C:\DEVELOPMENT\PYTHON\PyCharm 2021.1.2\bin;;.]
+2021-12-15 12:54:02.629  INFO 11348 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-12-15 12:54:02.629  INFO 11348 --- [           main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 9252 ms
+2021-12-15 12:54:02.667  INFO 11348 --- [           main] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2021-12-15 12:54:02.671  INFO 11348 --- [           main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-12-15 12:54:02.671  INFO 11348 --- [           main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-12-15 12:54:02.671  INFO 11348 --- [           main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'formContentFilter' to: [/*]
+2021-12-15 12:54:02.671  INFO 11348 --- [           main] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2021-12-15 12:54:02.869  INFO 11348 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-15 12:54:03.140  INFO 11348 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 57106 (http) with context path ''
+2021-12-15 12:54:03.144  INFO 11348 --- [           main] com.example.DemoApplication              : Started DemoApplication in 10.17 seconds (JVM running for 10.624)
+
+10.781 s/op
+
+
+
+# JMH version: 1.21
+# VM version: JDK 16.0.1, Java HotSpot(TM) 64-Bit Server VM, 16.0.1+9-24
+# VM invoker: C:\Program Files\Java\jdk16.0.1\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8 -XX:+ShowCodeDetailsInExceptionMessages
+# Warmup: 1 iterations, single-shot each
+# Measurement: 1 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: com.example.MyBenchmark.case03_WithContextIndexer
+
+# Run progress: 13.33% complete, ETA 00:08:21
+# Fork: 1 of 1
+# Warmup Iteration   1: 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.0.RELEASE)
+
+2021-12-15 12:54:07.391  INFO 13028 --- [           main] com.example.DemoApplication              : Starting DemoApplication v0.0.1-SNAPSHOT on v1-0064 with PID 13028 (C:\DEVELOPMENT\SPRING\WORKSPACE_STS3\spring-boot-startup-mybench-master\demo-flux-context-indexer\target\demo-flux-context-indexer-0.0.1-SNAPSHOT.jar started by Vikrant Verma in C:\DEVELOPMENT\SPRING\WORKSPACE_STS3\spring-boot-startup-mybench-master\benchmarks\target)
+2021-12-15 12:54:07.419  INFO 13028 --- [           main] com.example.DemoApplication              : No active profile set, falling back to default profiles: default
+2021-12-15 12:54:20.020  WARN 13028 --- [           main] reactor.netty.tcp.TcpResources           : [http] resources will use the default LoopResources: DefaultLoopResources {prefix=reactor-http, daemon=true, selectCount=8, workerCount=8}
+2021-12-15 12:54:20.020  WARN 13028 --- [           main] reactor.netty.tcp.TcpResources           : [http] resources will use the default ConnectionProvider: PooledConnectionProvider {name=http, poolFactory=reactor.netty.resources.ConnectionProvider$$Lambda$257/0x0000000800e918a8@e350b40}
+2021-12-15 12:54:22.353  INFO 13028 --- [           main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 57136
+2021-12-15 12:54:22.379  INFO 13028 --- [           main] com.example.DemoApplication              : Started DemoApplication in 16.452 seconds (JVM running for 18.369)
+
+18.568 s/op
+Iteration   1: 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.0.RELEASE)
+
+2021-12-15 12:54:23.424  INFO 6120 --- [           main] com.example.DemoApplication              : Starting DemoApplication v0.0.1-SNAPSHOT on v1-0064 with PID 6120 (C:\DEVELOPMENT\SPRING\WORKSPACE_STS3\spring-boot-startup-mybench-master\demo-flux-context-indexer\target\demo-flux-context-indexer-0.0.1-SNAPSHOT.jar started by Vikrant Verma in C:\DEVELOPMENT\SPRING\WORKSPACE_STS3\spring-boot-startup-mybench-master\benchmarks\target)
+2021-12-15 12:54:23.430  INFO 6120 --- [           main] com.example.DemoApplication              : No active profile set, falling back to default profiles: default
+2021-12-15 12:54:32.256  WARN 6120 --- [           main] reactor.netty.tcp.TcpResources           : [http] resources will use the default LoopResources: DefaultLoopResources {prefix=reactor-http, daemon=true, selectCount=8, workerCount=8}
+2021-12-15 12:54:32.257  WARN 6120 --- [           main] reactor.netty.tcp.TcpResources           : [http] resources will use the default ConnectionProvider: PooledConnectionProvider {name=http, poolFactory=reactor.netty.resources.ConnectionProvider$$Lambda$257/0x0000000800e98f00@6221a451}
+2021-12-15 12:54:33.062  INFO 6120 --- [           main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 57153
+2021-12-15 12:54:33.066  INFO 6120 --- [           main] com.example.DemoApplication              : Started DemoApplication in 9.976 seconds (JVM running for 10.459)
+
+10.648 s/op
+
+
+
+# JMH version: 1.21
+# VM version: JDK 16.0.1, Java HotSpot(TM) 64-Bit Server VM, 16.0.1+9-24
+# VM invoker: C:\Program Files\Java\jdk16.0.1\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8 -XX:+ShowCodeDetailsInExceptionMessages
+# Warmup: 1 iterations, single-shot each
+# Measurement: 1 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: com.example.MyBenchmark.case04_WithLazyInit
+
+# Run progress: 20.00% complete, ETA 00:07:08
+# Fork: 1 of 1
+# Warmup Iteration   1: 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.0.RELEASE)
+
+2021-12-15 12:54:37.399  INFO 8060 --- [           main] com.example.DemoApplication              : Starting DemoApplication v0.0.1-SNAPSHOT on v1-0064 with PID 8060 (C:\DEVELOPMENT\SPRING\WORKSPACE_STS3\spring-boot-startup-mybench-master\demo-flux-lazy-init\target\demo-flux-lazy-init-0.0.1-SNAPSHOT.jar started by Vikrant Verma in C:\DEVELOPMENT\SPRING\WORKSPACE_STS3\spring-boot-startup-mybench-master\benchmarks\target)
+2021-12-15 12:54:37.465  INFO 8060 --- [           main] com.example.DemoApplication              : No active profile set, falling back to default profiles: default
+2021-12-15 12:54:49.073  WARN 8060 --- [           main] reactor.netty.tcp.TcpResources           : [http] resources will use the default LoopResources: DefaultLoopResources {prefix=reactor-http, daemon=true, selectCount=8, workerCount=8}
+2021-12-15 12:54:49.074  WARN 8060 --- [           main] reactor.netty.tcp.TcpResources           : [http] resources will use the default ConnectionProvider: PooledConnectionProvider {name=http, poolFactory=reactor.netty.resources.ConnectionProvider$$Lambda$252/0x0000000800e91cd0@73e9cf30}
+2021-12-15 12:54:51.867  INFO 8060 --- [           main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 57173
+2021-12-15 12:54:51.886  INFO 8060 --- [           main] com.example.DemoApplication              : Started DemoApplication in 16.053 seconds (JVM running for 17.982)
+
+18.173 s/op
+Iteration   1: 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.0.RELEASE)
+
+2021-12-15 12:54:56.233  INFO 12024 --- [           main] com.example.DemoApplication              : Starting DemoApplication v0.0.1-SNAPSHOT on v1-0064 with PID 12024 (C:\DEVELOPMENT\SPRING\WORKSPACE_STS3\spring-boot-startup-mybench-master\demo-flux-lazy-init\target\demo-flux-lazy-init-0.0.1-SNAPSHOT.jar started by Vikrant Verma in C:\DEVELOPMENT\SPRING\WORKSPACE_STS3\spring-boot-startup-mybench-master\benchmarks\target)
+2021-12-15 12:54:56.274  INFO 12024 --- [           main] com.example.DemoApplication              : No active profile set, falling back to default profiles: default
+2021-12-15 12:55:07.621  WARN 12024 --- [           main] reactor.netty.tcp.TcpResources           : [http] resources will use the default LoopResources: DefaultLoopResources {prefix=reactor-http, daemon=true, selectCount=8, workerCount=8}
+2021-12-15 12:55:07.621  WARN 12024 --- [           main] reactor.netty.tcp.TcpResources           : [http] resources will use the default ConnectionProvider: PooledConnectionProvider {name=http, poolFactory=reactor.netty.resources.ConnectionProvider$$Lambda$252/0x0000000800e91cd0@51c668e3}
+2021-12-15 12:55:09.836  INFO 12024 --- [           main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 57190
+2021-12-15 12:55:09.850  INFO 12024 --- [           main] com.example.DemoApplication              : Started DemoApplication in 15.249 seconds (JVM running for 17.083)
+
+17.923 s/op
+
+
+
+# JMH version: 1.21
+# VM version: JDK 16.0.1, Java HotSpot(TM) 64-Bit Server VM, 16.0.1+9-24
+# VM invoker: C:\Program Files\Java\jdk16.0.1\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8 -XX:+ShowCodeDetailsInExceptionMessages
+# Warmup: 1 iterations, single-shot each
+# Measurement: 1 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: com.example.MyBenchmark.case05_WithNoVerifyOption
+
+# Run progress: 26.67% complete, ETA 00:06:35
+# Fork: 1 of 1
+# Warmup Iteration   1: Java HotSpot(TM) 64-Bit Server VM warning: Options -Xverify:none and -noverify were deprecated in JDK 13 and will likely be removed in a future release.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.0.RELEASE)
+
+2021-12-15 12:55:15.042  INFO 8276 --- [           main] com.example.DemoApplication              : Starting DemoApplication v0.0.1-SNAPSHOT on v1-0064 with PID 8276 (C:\DEVELOPMENT\SPRING\WORKSPACE_STS3\spring-boot-startup-mybench-master\demo-flux\target\demo-flux-0.0.1-SNAPSHOT.jar started by Vikrant Verma in C:\DEVELOPMENT\SPRING\WORKSPACE_STS3\spring-boot-startup-mybench-master\benchmarks\target)
+2021-12-15 12:55:15.069  INFO 8276 --- [           main] com.example.DemoApplication              : No active profile set, falling back to default profiles: default
+2021-12-15 12:55:26.327  WARN 8276 --- [           main] reactor.netty.tcp.TcpResources           : [http] resources will use the default LoopResources: DefaultLoopResources {prefix=reactor-http, daemon=true, selectCount=8, workerCount=8}
+2021-12-15 12:55:26.327  WARN 8276 --- [           main] reactor.netty.tcp.TcpResources           : [http] resources will use the default ConnectionProvider: PooledConnectionProvider {name=http, poolFactory=reactor.netty.resources.ConnectionProvider$$Lambda$252/0x0000000800e82038@659499f1}
+2021-12-15 12:55:28.382  INFO 8276 --- [           main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 57211
+2021-12-15 12:55:28.394  INFO 8276 --- [           main] com.example.DemoApplication              : Started DemoApplication in 15.047 seconds (JVM running for 17.53)
+
+17.778 s/op
+Iteration   1: Java HotSpot(TM) 64-Bit Server VM warning: Options -Xverify:none and -noverify were deprecated in JDK 13 and will likely be removed in a future release.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.0.RELEASE)
+
+2021-12-15 12:55:29.327  INFO 10032 --- [           main] com.example.DemoApplication              : Starting DemoApplication v0.0.1-SNAPSHOT on v1-0064 with PID 10032 (C:\DEVELOPMENT\SPRING\WORKSPACE_STS3\spring-boot-startup-mybench-master\demo-flux\target\demo-flux-0.0.1-SNAPSHOT.jar started by Vikrant Verma in C:\DEVELOPMENT\SPRING\WORKSPACE_STS3\spring-boot-startup-mybench-master\benchmarks\target)
+2021-12-15 12:55:29.329  INFO 10032 --- [           main] com.example.DemoApplication              : No active profile set, falling back to default profiles: default
+2021-12-15 12:55:38.053  WARN 10032 --- [           main] reactor.netty.tcp.TcpResources           : [http] resources will use the default LoopResources: DefaultLoopResources {prefix=reactor-http, daemon=true, selectCount=8, workerCount=8}
+2021-12-15 12:55:38.054  WARN 10032 --- [           main] reactor.netty.tcp.TcpResources           : [http] resources will use the default ConnectionProvider: PooledConnectionProvider {name=http, poolFactory=reactor.netty.resources.ConnectionProvider$$Lambda$252/0x0000000800e83c60@38cee291}
+2021-12-15 12:55:38.712  INFO 10032 --- [           main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 57228
+2021-12-15 12:55:38.716  INFO 10032 --- [           main] com.example.DemoApplication              : Started DemoApplication in 9.692 seconds (JVM running for 10.113)
+
+10.294 s/op
+
+
+
+# JMH version: 1.21
+# VM version: JDK 16.0.1, Java HotSpot(TM) 64-Bit Server VM, 16.0.1+9-24
+# VM invoker: C:\Program Files\Java\jdk16.0.1\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8 -XX:+ShowCodeDetailsInExceptionMessages
+# Warmup: 1 iterations, single-shot each
+# Measurement: 1 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: com.example.MyBenchmark.case06_WithTieredStopAtLevel1Option
+
+# Run progress: 33.33% complete, ETA 00:05:45
+# Fork: 1 of 1
+# Warmup Iteration   1: 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.0.RELEASE)
+
+2021-12-15 12:55:40.427  INFO 11660 --- [           main] com.example.DemoApplication              : Starting DemoApplication v0.0.1-SNAPSHOT on v1-0064 with PID 11660 (C:\DEVELOPMENT\SPRING\WORKSPACE_STS3\spring-boot-startup-mybench-master\demo-flux\target\demo-flux-0.0.1-SNAPSHOT.jar started by Vikrant Verma in C:\DEVELOPMENT\SPRING\WORKSPACE_STS3\spring-boot-startup-mybench-master\benchmarks\target)
+2021-12-15 12:55:40.430  INFO 11660 --- [           main] com.example.DemoApplication              : No active profile set, falling back to default profiles: default
+2021-12-15 12:55:49.400  WARN 11660 --- [           main] reactor.netty.tcp.TcpResources           : [http] resources will use the default LoopResources: DefaultLoopResources {prefix=reactor-http, daemon=true, selectCount=8, workerCount=8}
+2021-12-15 12:55:49.400  WARN 11660 --- [           main] reactor.netty.tcp.TcpResources           : [http] resources will use the default ConnectionProvider: PooledConnectionProvider {name=http, poolFactory=reactor.netty.resources.ConnectionProvider$$Lambda$252/0x0000000800e918a8@2d52216b}
+2021-12-15 12:55:58.510  INFO 11660 --- [           main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 57253
+2021-12-15 12:55:58.517  INFO 11660 --- [           main] com.example.DemoApplication              : Started DemoApplication in 18.546 seconds (JVM running for 18.952)
+
+19.067 s/op
+Iteration   1: 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.0.RELEASE)
+
+2021-12-15 12:56:00.122  INFO 13648 --- [           main] com.example.DemoApplication              : Starting DemoApplication v0.0.1-SNAPSHOT on v1-0064 with PID 13648 (C:\DEVELOPMENT\SPRING\WORKSPACE_STS3\spring-boot-startup-mybench-master\demo-flux\target\demo-flux-0.0.1-SNAPSHOT.jar started by Vikrant Verma in C:\DEVELOPMENT\SPRING\WORKSPACE_STS3\spring-boot-startup-mybench-master\benchmarks\target)
+2021-12-15 12:56:00.125  INFO 13648 --- [           main] com.example.DemoApplication              : No active profile set, falling back to default profiles: default
+2021-12-15 12:56:09.366  WARN 13648 --- [           main] reactor.netty.tcp.TcpResources           : [http] resources will use the default LoopResources: DefaultLoopResources {prefix=reactor-http, daemon=true, selectCount=8, workerCount=8}
+2021-12-15 12:56:09.366  WARN 13648 --- [           main] reactor.netty.tcp.TcpResources           : [http] resources will use the default ConnectionProvider: PooledConnectionProvider {name=http, poolFactory=reactor.netty.resources.ConnectionProvider$$Lambda$252/0x0000000800e98000@7b36aa0c}
+2021-12-15 12:56:10.122  INFO 13648 --- [           main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 57270
+2021-12-15 12:56:10.126  INFO 13648 --- [           main] com.example.DemoApplication              : Started DemoApplication in 10.386 seconds (JVM running for 11.305)
+
+11.568 s/op
+
+
+
+# JMH version: 1.21
+# VM version: JDK 16.0.1, Java HotSpot(TM) 64-Bit Server VM, 16.0.1+9-24
+# VM invoker: C:\Program Files\Java\jdk16.0.1\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8 -XX:+ShowCodeDetailsInExceptionMessages
+# Warmup: 1 iterations, single-shot each
+# Measurement: 1 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: com.example.MyBenchmark.case07_WithSpringConfigLocationOption
+
+# Run progress: 40.00% complete, ETA 00:05:06
+# Fork: 1 of 1
+# Warmup Iteration   1: 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.0.RELEASE)
+
+2021-12-15 12:56:19.125  INFO 11568 --- [           main] com.example.DemoApplication              : Starting DemoApplication v0.0.1-SNAPSHOT on v1-0064 with PID 11568 (C:\DEVELOPMENT\SPRING\WORKSPACE_STS3\spring-boot-startup-mybench-master\demo-flux\target\demo-flux-0.0.1-SNAPSHOT.jar started by Vikrant Verma in C:\DEVELOPMENT\SPRING\WORKSPACE_STS3\spring-boot-startup-mybench-master\benchmarks\target)
+2021-12-15 12:56:19.186  INFO 11568 --- [           main] com.example.DemoApplication              : No active profile set, falling back to default profiles: default
+2021-12-15 12:56:37.401  WARN 11568 --- [           main] reactor.netty.tcp.TcpResources           : [http] resources will use the default LoopResources: DefaultLoopResources {prefix=reactor-http, daemon=true, selectCount=8, workerCount=8}
+2021-12-15 12:56:37.401  WARN 11568 --- [           main] reactor.netty.tcp.TcpResources           : [http] resources will use the default ConnectionProvider: PooledConnectionProvider {name=http, poolFactory=reactor.netty.resources.ConnectionProvider$$Lambda$253/0x0000000800e98000@25641d39}
+2021-12-15 12:56:39.931  INFO 11568 --- [           main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 57291
+2021-12-15 12:56:39.942  INFO 11568 --- [           main] com.example.DemoApplication              : Started DemoApplication in 22.364 seconds (JVM running for 26.827)
+
+27.662 s/op
+Iteration   1: 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.0.RELEASE)
+
+2021-12-15 12:56:43.847  INFO 8124 --- [           main] com.example.DemoApplication              : Starting DemoApplication v0.0.1-SNAPSHOT on v1-0064 with PID 8124 (C:\DEVELOPMENT\SPRING\WORKSPACE_STS3\spring-boot-startup-mybench-master\demo-flux\target\demo-flux-0.0.1-SNAPSHOT.jar started by Vikrant Verma in C:\DEVELOPMENT\SPRING\WORKSPACE_STS3\spring-boot-startup-mybench-master\benchmarks\target)
+2021-12-15 12:56:43.888  INFO 8124 --- [           main] com.example.DemoApplication              : No active profile set, falling back to default profiles: default
+2021-12-15 12:56:55.223  WARN 8124 --- [           main] reactor.netty.tcp.TcpResources           : [http] resources will use the default LoopResources: DefaultLoopResources {prefix=reactor-http, daemon=true, selectCount=8, workerCount=8}
+2021-12-15 12:56:55.223  WARN 8124 --- [           main] reactor.netty.tcp.TcpResources           : [http] resources will use the default ConnectionProvider: PooledConnectionProvider {name=http, poolFactory=reactor.netty.resources.ConnectionProvider$$Lambda$253/0x0000000800e98000@6221a451}
+2021-12-15 12:56:57.396  INFO 8124 --- [           main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 57311
+2021-12-15 12:56:57.416  INFO 8124 --- [           main] com.example.DemoApplication              : Started DemoApplication in 15.347 seconds (JVM running for 17.271)
+
+17.445 s/op
+
+
+
+# JMH version: 1.21
+# VM version: JDK 16.0.1, Java HotSpot(TM) 64-Bit Server VM, 16.0.1+9-24
+# VM invoker: C:\Program Files\Java\jdk16.0.1\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8 -XX:+ShowCodeDetailsInExceptionMessages
+# Warmup: 1 iterations, single-shot each
+# Measurement: 1 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: com.example.MyBenchmark.case08_WithJmxDisabledOption
+
+# Run progress: 46.67% complete, ETA 00:04:47
+# Fork: 1 of 1
+# Warmup Iteration   1: 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.0.RELEASE)
+
+2021-12-15 12:57:03.765  INFO 14104 --- [           main] com.example.DemoApplication              : Starting DemoApplication v0.0.1-SNAPSHOT on v1-0064 with PID 14104 (C:\DEVELOPMENT\SPRING\WORKSPACE_STS3\spring-boot-startup-mybench-master\demo-flux\target\demo-flux-0.0.1-SNAPSHOT.jar started by Vikrant Verma in C:\DEVELOPMENT\SPRING\WORKSPACE_STS3\spring-boot-startup-mybench-master\benchmarks\target)
+2021-12-15 12:57:03.828  INFO 14104 --- [           main] com.example.DemoApplication              : No active profile set, falling back to default profiles: default
+2021-12-15 12:57:15.152  WARN 14104 --- [           main] reactor.netty.tcp.TcpResources           : [http] resources will use the default LoopResources: DefaultLoopResources {prefix=reactor-http, daemon=true, selectCount=8, workerCount=8}
+2021-12-15 12:57:15.152  WARN 14104 --- [           main] reactor.netty.tcp.TcpResources           : [http] resources will use the default ConnectionProvider: PooledConnectionProvider {name=http, poolFactory=reactor.netty.resources.ConnectionProvider$$Lambda$252/0x0000000800e986b0@2dc54ad4}
+2021-12-15 12:57:17.333  INFO 14104 --- [           main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 57331
+2021-12-15 12:57:17.344  INFO 14104 --- [           main] com.example.DemoApplication              : Started DemoApplication in 15.674 seconds (JVM running for 17.804)
+
+18.669 s/op
+Iteration   1: 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.0.RELEASE)
+
+2021-12-15 12:57:18.381  INFO 10080 --- [           main] com.example.DemoApplication              : Starting DemoApplication v0.0.1-SNAPSHOT on v1-0064 with PID 10080 (C:\DEVELOPMENT\SPRING\WORKSPACE_STS3\spring-boot-startup-mybench-master\demo-flux\target\demo-flux-0.0.1-SNAPSHOT.jar started by Vikrant Verma in C:\DEVELOPMENT\SPRING\WORKSPACE_STS3\spring-boot-startup-mybench-master\benchmarks\target)
+2021-12-15 12:57:18.385  INFO 10080 --- [           main] com.example.DemoApplication              : No active profile set, falling back to default profiles: default
+2021-12-15 12:57:27.173  WARN 10080 --- [           main] reactor.netty.tcp.TcpResources           : [http] resources will use the default LoopResources: DefaultLoopResources {prefix=reactor-http, daemon=true, selectCount=8, workerCount=8}
+2021-12-15 12:57:27.174  WARN 10080 --- [           main] reactor.netty.tcp.TcpResources           : [http] resources will use the default ConnectionProvider: PooledConnectionProvider {name=http, poolFactory=reactor.netty.resources.ConnectionProvider$$Lambda$252/0x0000000800e98f00@48aca48b}
+2021-12-15 12:57:27.870  INFO 10080 --- [           main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 57350
+2021-12-15 12:57:27.873  INFO 10080 --- [           main] com.example.DemoApplication              : Started DemoApplication in 9.822 seconds (JVM running for 10.313)
+
+10.500 s/op
+
+
+
+# JMH version: 1.21
+# VM version: JDK 16.0.1, Java HotSpot(TM) 64-Bit Server VM, 16.0.1+9-24
+# VM invoker: C:\Program Files\Java\jdk16.0.1\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8 -XX:+ShowCodeDetailsInExceptionMessages
+# Warmup: 1 iterations, single-shot each
+# Measurement: 1 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: com.example.MyBenchmark.case09_WithoutLogback
+
+# Run progress: 53.33% complete, ETA 00:04:06
+# Fork: 1 of 1
+# Warmup Iteration   1: 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.0.RELEASE)
+
+Dec 15, 2021 12:57:31 PM org.springframework.boot.StartupInfoLogger logStarting
+INFO: Starting DemoApplication v0.0.1-SNAPSHOT on v1-0064 with PID 7224 (C:\DEVELOPMENT\SPRING\WORKSPACE_STS3\spring-boot-startup-mybench-master\demo-flux-without-logback\target\demo-flux-without-logback-0.0.1-SNAPSHOT.jar started by Vikrant Verma in C:\DEVELOPMENT\SPRING\WORKSPACE_STS3\spring-boot-startup-mybench-master\benchmarks\target)
+Dec 15, 2021 12:57:31 PM org.springframework.boot.SpringApplication logStartupProfileInfo
+INFO: No active profile set, falling back to default profiles: default
+Dec 15, 2021 12:57:44 PM reactor.util.Loggers$Slf4JLogger warn
+WARNING: [http] resources will use the default LoopResources: DefaultLoopResources {prefix=reactor-http, daemon=true, selectCount=8, workerCount=8}
+Dec 15, 2021 12:57:44 PM reactor.util.Loggers$Slf4JLogger warn
+WARNING: [http] resources will use the default ConnectionProvider: PooledConnectionProvider {name=http, poolFactory=reactor.netty.resources.ConnectionProvider$$Lambda$258/0x0000000800e6c400@b62d79}
+Dec 15, 2021 12:57:47 PM org.springframework.boot.web.embedded.netty.NettyWebServer start
+INFO: Netty started on port(s): 57374
+Dec 15, 2021 12:57:47 PM org.springframework.boot.StartupInfoLogger logStarted
+
+19.028 s/op
+Iteration   1: 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.0.RELEASE)
+
+Dec 15, 2021 12:57:48 PM org.springframework.boot.StartupInfoLogger logStarting
+INFO: Starting DemoApplication v0.0.1-SNAPSHOT on v1-0064 with PID 12296 (C:\DEVELOPMENT\SPRING\WORKSPACE_STS3\spring-boot-startup-mybench-master\demo-flux-without-logback\target\demo-flux-without-logback-0.0.1-SNAPSHOT.jar started by Vikrant Verma in C:\DEVELOPMENT\SPRING\WORKSPACE_STS3\spring-boot-startup-mybench-master\benchmarks\target)
+Dec 15, 2021 12:57:48 PM org.springframework.boot.SpringApplication logStartupProfileInfo
+INFO: No active profile set, falling back to default profiles: default
+Dec 15, 2021 12:57:57 PM reactor.util.Loggers$Slf4JLogger warn
+WARNING: [http] resources will use the default LoopResources: DefaultLoopResources {prefix=reactor-http, daemon=true, selectCount=8, workerCount=8}
+Dec 15, 2021 12:57:57 PM reactor.util.Loggers$Slf4JLogger warn
+WARNING: [http] resources will use the default ConnectionProvider: PooledConnectionProvider {name=http, poolFactory=reactor.netty.resources.ConnectionProvider$$Lambda$258/0x0000000800e6ccb8@1b6e1eff}
+Dec 15, 2021 12:57:58 PM org.springframework.boot.web.embedded.netty.NettyWebServer start
+INFO: Netty started on port(s): 57391
+Dec 15, 2021 12:57:58 PM org.springframework.boot.StartupInfoLogger logStarted
+
+10.478 s/op
+
+
+
+# JMH version: 1.21
+# VM version: JDK 16.0.1, Java HotSpot(TM) 64-Bit Server VM, 16.0.1+9-24
+# VM invoker: C:\Program Files\Java\jdk16.0.1\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8 -XX:+ShowCodeDetailsInExceptionMessages
+# Warmup: 1 iterations, single-shot each
+# Measurement: 1 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: com.example.MyBenchmark.case10_WithoutJackson
+
+# Run progress: 60.00% complete, ETA 00:03:28
+# Fork: 1 of 1
+# Warmup Iteration   1: 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.0.RELEASE)
+
+2021-12-15 12:58:03.064  INFO 5488 --- [           main] com.example.DemoApplication              : Starting DemoApplication v0.0.1-SNAPSHOT on v1-0064 with PID 5488 (C:\DEVELOPMENT\SPRING\WORKSPACE_STS3\spring-boot-startup-mybench-master\demo-flux-without-jackson\target\demo-flux-without-jackson-0.0.1-SNAPSHOT.jar started by Vikrant Verma in C:\DEVELOPMENT\SPRING\WORKSPACE_STS3\spring-boot-startup-mybench-master\benchmarks\target)
+2021-12-15 12:58:03.088  INFO 5488 --- [           main] com.example.DemoApplication              : No active profile set, falling back to default profiles: default
+2021-12-15 12:58:14.320  WARN 5488 --- [           main] reactor.netty.tcp.TcpResources           : [http] resources will use the default LoopResources: DefaultLoopResources {prefix=reactor-http, daemon=true, selectCount=8, workerCount=8}
+2021-12-15 12:58:14.320  WARN 5488 --- [           main] reactor.netty.tcp.TcpResources           : [http] resources will use the default ConnectionProvider: PooledConnectionProvider {name=http, poolFactory=reactor.netty.resources.ConnectionProvider$$Lambda$228/0x0000000800e3b558@1b11171f}
+2021-12-15 12:58:17.091  INFO 5488 --- [           main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 57410
+2021-12-15 12:58:17.115  INFO 5488 --- [           main] com.example.DemoApplication              : Started DemoApplication in 16.156 seconds (JVM running for 18.138)
+
+18.352 s/op
+Iteration   1: 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.0.RELEASE)
+
+2021-12-15 12:58:18.160  INFO 10864 --- [           main] com.example.DemoApplication              : Starting DemoApplication v0.0.1-SNAPSHOT on v1-0064 with PID 10864 (C:\DEVELOPMENT\SPRING\WORKSPACE_STS3\spring-boot-startup-mybench-master\demo-flux-without-jackson\target\demo-flux-without-jackson-0.0.1-SNAPSHOT.jar started by Vikrant Verma in C:\DEVELOPMENT\SPRING\WORKSPACE_STS3\spring-boot-startup-mybench-master\benchmarks\target)
+2021-12-15 12:58:18.164  INFO 10864 --- [           main] com.example.DemoApplication              : No active profile set, falling back to default profiles: default
+2021-12-15 12:58:26.896  WARN 10864 --- [           main] reactor.netty.tcp.TcpResources           : [http] resources will use the default LoopResources: DefaultLoopResources {prefix=reactor-http, daemon=true, selectCount=8, workerCount=8}
+2021-12-15 12:58:26.896  WARN 10864 --- [           main] reactor.netty.tcp.TcpResources           : [http] resources will use the default ConnectionProvider: PooledConnectionProvider {name=http, poolFactory=reactor.netty.resources.ConnectionProvider$$Lambda$228/0x0000000800e3b558@49049a04}
+2021-12-15 12:58:27.624  INFO 10864 --- [           main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 57429
+2021-12-15 12:58:27.629  INFO 10864 --- [           main] com.example.DemoApplication              : Started DemoApplication in 9.8 seconds (JVM running for 10.273)
+
+10.477 s/op
+
+
+
+# JMH version: 1.21
+# VM version: JDK 16.0.1, Java HotSpot(TM) 64-Bit Server VM, 16.0.1+9-24
+# VM invoker: C:\Program Files\Java\jdk16.0.1\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8 -XX:+ShowCodeDetailsInExceptionMessages
+# Warmup: 1 iterations, single-shot each
+# Measurement: 1 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: com.example.MyBenchmark.case11_WithoutHibernateValidator
+
+# Run progress: 66.67% complete, ETA 00:02:50
+# Fork: 1 of 1
+# Warmup Iteration   1: 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.0.RELEASE)
+
+2021-12-15 12:58:30.919  INFO 5804 --- [           main] com.example.DemoApplication              : Starting DemoApplication v0.0.1-SNAPSHOT on v1-0064 with PID 5804 (C:\DEVELOPMENT\SPRING\WORKSPACE_STS3\spring-boot-startup-mybench-master\demo-flux-without-hibernate-validator\target\demo-flux-without-hibernate-validator-0.0.1-SNAPSHOT.jar started by Vikrant Verma in C:\DEVELOPMENT\SPRING\WORKSPACE_STS3\spring-boot-startup-mybench-master\benchmarks\target)
+2021-12-15 12:58:30.954  INFO 5804 --- [           main] com.example.DemoApplication              : No active profile set, falling back to default profiles: default
+2021-12-15 12:58:40.668  WARN 5804 --- [           main] reactor.netty.tcp.TcpResources           : [http] resources will use the default LoopResources: DefaultLoopResources {prefix=reactor-http, daemon=true, selectCount=8, workerCount=8}
+2021-12-15 12:58:40.668  WARN 5804 --- [           main] reactor.netty.tcp.TcpResources           : [http] resources will use the default ConnectionProvider: PooledConnectionProvider {name=http, poolFactory=reactor.netty.resources.ConnectionProvider$$Lambda$249/0x0000000800e4fb50@5b03b9fe}
+2021-12-15 12:58:42.500  INFO 5804 --- [           main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 57450
+2021-12-15 12:58:42.522  INFO 5804 --- [           main] com.example.DemoApplication              : Started DemoApplication in 12.6 seconds (JVM running for 14.053)
+
+14.283 s/op
+Iteration   1: 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.0.RELEASE)
+
+2021-12-15 12:58:43.521  INFO 10524 --- [           main] com.example.DemoApplication              : Starting DemoApplication v0.0.1-SNAPSHOT on v1-0064 with PID 10524 (C:\DEVELOPMENT\SPRING\WORKSPACE_STS3\spring-boot-startup-mybench-master\demo-flux-without-hibernate-validator\target\demo-flux-without-hibernate-validator-0.0.1-SNAPSHOT.jar started by Vikrant Verma in C:\DEVELOPMENT\SPRING\WORKSPACE_STS3\spring-boot-startup-mybench-master\benchmarks\target)
+2021-12-15 12:58:43.525  INFO 10524 --- [           main] com.example.DemoApplication              : No active profile set, falling back to default profiles: default
+2021-12-15 12:58:52.330  WARN 10524 --- [           main] reactor.netty.tcp.TcpResources           : [http] resources will use the default LoopResources: DefaultLoopResources {prefix=reactor-http, daemon=true, selectCount=8, workerCount=8}
+2021-12-15 12:58:52.331  WARN 10524 --- [           main] reactor.netty.tcp.TcpResources           : [http] resources will use the default ConnectionProvider: PooledConnectionProvider {name=http, poolFactory=reactor.netty.resources.ConnectionProvider$$Lambda$249/0x0000000800e4fbb0@7c24b813}
+2021-12-15 12:58:53.182  INFO 10524 --- [           main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 57468
+2021-12-15 12:58:53.186  INFO 10524 --- [           main] com.example.DemoApplication              : Started DemoApplication in 10.007 seconds (JVM running for 10.476)
+
+10.621 s/op
+
+
+
+# JMH version: 1.21
+# VM version: JDK 16.0.1, Java HotSpot(TM) 64-Bit Server VM, 16.0.1+9-24
+# VM invoker: C:\Program Files\Java\jdk16.0.1\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8 -XX:+ShowCodeDetailsInExceptionMessages
+# Warmup: 1 iterations, single-shot each
+# Measurement: 1 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: com.example.MyBenchmark.case12_WithAppCds
+
+# Run progress: 73.33% complete, ETA 00:02:13
+# Fork: 1 of 1
+# Warmup Iteration   1: skip writing class jdk/proxy1/$Proxy0 from source __dynamic_proxy__ to classlist file
+skip writing class jdk/proxy1/$Proxy1 from source __dynamic_proxy__ to classlist file
+skip writing class jdk/proxy1/$Proxy2 from source __dynamic_proxy__ to classlist file
+skip writing class jdk/proxy1/$Proxy3 from source __dynamic_proxy__ to classlist file
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.0.RELEASE)
+
+skip writing class jdk/proxy1/$Proxy7 from source __dynamic_proxy__ to classlist file
+2021-12-15 12:58:57.737  INFO 2712 --- [           main] com.example.DemoApplication              : Starting DemoApplication v0.0.1-SNAPSHOT on v1-0064 with PID 2712 (C:\DEVELOPMENT\SPRING\WORKSPACE_STS3\spring-boot-startup-mybench-master\demo-flux\target\demo-flux-0.0.1-SNAPSHOT.jar started by Vikrant Verma in C:\DEVELOPMENT\SPRING\WORKSPACE_STS3\spring-boot-startup-mybench-master\benchmarks\target)
+2021-12-15 12:58:57.762  INFO 2712 --- [           main] com.example.DemoApplication              : No active profile set, falling back to default profiles: default
+skip writing class jdk/proxy1/$Proxy10 from source __dynamic_proxy__ to classlist file
+skip writing class jdk/proxy1/$Proxy21 from source __dynamic_proxy__ to classlist file
+skip writing class com/sun/proxy/jdk/proxy1/$Proxy25 from source __dynamic_proxy__ to classlist file
+2021-12-15 12:59:01.630  WARN 2712 --- [           main] reactor.netty.tcp.TcpResources           : [http] resources will use the default LoopResources: DefaultLoopResources {prefix=reactor-http, daemon=true, selectCount=8, workerCount=8}
+2021-12-15 12:59:01.630  WARN 2712 --- [           main] reactor.netty.tcp.TcpResources           : [http] resources will use the default ConnectionProvider: PooledConnectionProvider {name=http, poolFactory=reactor.netty.resources.ConnectionProvider$$Lambda$252/0x00000007c03827e8@48793bef}
+skip writing class jdk/proxy1/$Proxy57 from source __dynamic_proxy__ to classlist file
+2021-12-15 12:59:04.033  INFO 2712 --- [           main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 57488
+2021-12-15 12:59:04.047  INFO 2712 --- [           main] com.example.DemoApplication              : Started DemoApplication in 8.107 seconds (JVM running for 10.072)
+
+[0.606s][warning][cds] resolve_indy for class org/springframework/util/LinkedMultiValueMap has encountered exception: java.lang.NoClassDefFoundError org/springframework/util/LinkedMultiValueMap
+[0.607s][warning][cds] resolve_indy for class org/springframework/util/ReflectionUtils has encountered exception: java.lang.NoClassDefFoundError org/springframework/util/ReflectionUtils
+[0.607s][warning][cds] resolve_indy for class org/springframework/util/ReflectionUtils has encountered exception: java.lang.NoClassDefFoundError org/springframework/util/ReflectionUtils
+[0.608s][warning][cds] resolve_indy for class org/springframework/util/ReflectionUtils has encountered exception: java.lang.NoClassDefFoundError org/springframework/util/ReflectionUtils
+[0.609s][warning][cds] resolve_indy for class org/springframework/core/annotation/AnnotationUtils has encountered exception: java.lang.NoClassDefFoundError org/springframework/core/annotation/AnnotationUtils
+[0.639s][warning][cds] resolve_indy for class org/springframework/boot/logging/LoggingSystem has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/logging/LoggingSystem
+[0.640s][warning][cds] resolve_indy for class org/springframework/boot/logging/LoggingSystem has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/logging/LoggingSystem
+[0.644s][warning][cds] resolve_indy for class org/springframework/boot/logging/LoggingSystem has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/logging/LoggingSystem
+[0.700s][warning][cds] resolve_indy for class org/springframework/core/GenericTypeResolver has encountered exception: java.lang.NoClassDefFoundError org/springframework/core/GenericTypeResolver
+[0.700s][warning][cds] resolve_indy for class org/springframework/core/GenericTypeResolver has encountered exception: java.lang.NoClassDefFoundError org/springframework/core/GenericTypeResolver
+[0.720s][warning][cds] resolve_indy for class org/springframework/boot/env/SpringApplicationJsonEnvironmentPostProcessor has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/env/SpringApplicationJsonEnvironmentPostProcessor
+[0.720s][warning][cds] resolve_indy for class org/springframework/boot/env/SpringApplicationJsonEnvironmentPostProcessor has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/env/SpringApplicationJsonEnvironmentPostProcessor
+[0.720s][warning][cds] resolve_indy for class org/springframework/boot/env/SpringApplicationJsonEnvironmentPostProcessor has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/env/SpringApplicationJsonEnvironmentPostProcessor
+[0.721s][warning][cds] resolve_indy for class org/springframework/boot/context/config/ConfigFileApplicationListener$Loader has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/config/ConfigFileApplicationListener$Loader
+[0.721s][warning][cds] resolve_indy for class org/springframework/boot/context/config/ConfigFileApplicationListener$Loader has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/config/ConfigFileApplicationListener$Loader
+[0.745s][warning][cds] resolve_indy for class org/springframework/boot/context/config/ConfigFileApplicationListener$Loader has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/config/ConfigFileApplicationListener$Loader
+[0.746s][warning][cds] resolve_indy for class org/springframework/boot/context/config/ConfigFileApplicationListener$Loader has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/config/ConfigFileApplicationListener$Loader
+[0.746s][warning][cds] resolve_indy for class org/springframework/boot/context/config/ConfigFileApplicationListener$Loader has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/config/ConfigFileApplicationListener$Loader
+[0.746s][warning][cds] resolve_indy for class org/springframework/boot/context/config/ConfigFileApplicationListener$Loader has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/config/ConfigFileApplicationListener$Loader
+[0.746s][warning][cds] resolve_indy for class org/springframework/boot/context/config/ConfigFileApplicationListener$Loader has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/config/ConfigFileApplicationListener$Loader
+[0.746s][warning][cds] resolve_indy for class org/springframework/boot/context/config/ConfigFileApplicationListener$Loader has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/config/ConfigFileApplicationListener$Loader
+[0.747s][warning][cds] resolve_indy for class org/springframework/boot/context/config/ConfigFileApplicationListener$Loader has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/config/ConfigFileApplicationListener$Loader
+[0.748s][warning][cds] resolve_indy for class org/springframework/boot/context/config/ConfigFileApplicationListener$Loader has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/config/ConfigFileApplicationListener$Loader
+[0.748s][warning][cds] resolve_indy for class org/springframework/boot/context/config/ConfigFileApplicationListener$Loader has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/config/ConfigFileApplicationListener$Loader
+[0.748s][warning][cds] resolve_indy for class org/springframework/boot/context/config/ConfigFileApplicationListener$Loader has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/config/ConfigFileApplicationListener$Loader
+[0.752s][warning][cds] resolve_indy for class org/springframework/boot/context/config/ConfigFileApplicationListener$Loader has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/config/ConfigFileApplicationListener$Loader
+[0.753s][warning][cds] resolve_indy for class org/springframework/boot/context/config/ConfigFileApplicationListener$Loader has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/config/ConfigFileApplicationListener$Loader
+[0.753s][warning][cds] resolve_indy for class org/springframework/boot/context/config/ConfigFileApplicationListener$Loader has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/config/ConfigFileApplicationListener$Loader
+[0.758s][warning][cds] resolve_indy for class org/springframework/boot/context/properties/source/SpringConfigurationPropertySources has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/properties/source/SpringConfigurationPropertySources
+[0.759s][warning][cds] resolve_indy for class org/springframework/boot/context/properties/source/SpringConfigurationPropertySource has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/properties/source/SpringConfigurationPropertySource
+[0.761s][warning][cds] resolve_indy for class org/springframework/boot/context/properties/source/SystemEnvironmentPropertyMapper has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/properties/source/SystemEnvironmentPropertyMapper
+[0.761s][warning][cds] resolve_indy for class org/springframework/boot/context/properties/source/SystemEnvironmentPropertyMapper has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/properties/source/SystemEnvironmentPropertyMapper
+[0.763s][warning][cds] resolve_indy for class org/springframework/boot/context/properties/source/SpringConfigurationPropertySource has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/properties/source/SpringConfigurationPropertySource
+[0.764s][warning][cds] resolve_indy for class org/springframework/boot/context/properties/source/SpringIterableConfigurationPropertySource has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/properties/source/SpringIterableConfigurationPropertySource
+[0.765s][warning][cds] resolve_indy for class org/hibernate/validator/internal/engine/ConfigurationImpl has encountered exception: java.lang.NoClassDefFoundError org/hibernate/validator/internal/engine/ConfigurationImpl
+[0.767s][warning][cds] resolve_indy for class org/springframework/boot/context/config/AnsiOutputApplicationListener has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/config/AnsiOutputApplicationListener
+[0.807s][warning][cds] resolve_indy for class org/hibernate/validator/internal/metadata/core/ConstraintHelper has encountered exception: java.lang.NoClassDefFoundError org/hibernate/validator/internal/metadata/core/ConstraintHelper
+[0.808s][warning][cds] resolve_indy for class org/springframework/core/env/AbstractPropertyResolver has encountered exception: java.lang.NoClassDefFoundError org/springframework/core/env/AbstractPropertyResolver
+[0.808s][warning][cds] resolve_indy for class org/hibernate/validator/internal/metadata/core/ConstraintHelper has encountered exception: java.lang.NoClassDefFoundError org/hibernate/validator/internal/metadata/core/ConstraintHelper
+[0.811s][warning][cds] resolve_indy for class org/springframework/boot/context/logging/LoggingApplicationListener has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/logging/LoggingApplicationListener
+[0.811s][warning][cds] resolve_indy for class org/springframework/boot/context/properties/bind/Bindable has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/properties/bind/Bindable
+[0.811s][warning][cds] resolve_indy for class org/springframework/boot/context/properties/bind/Bindable has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/properties/bind/Bindable
+[0.811s][warning][cds] resolve_indy for class org/springframework/boot/context/logging/LoggingApplicationListener has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/logging/LoggingApplicationListener
+[0.811s][warning][cds] resolve_indy for class org/springframework/boot/context/logging/LoggingApplicationListener has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/logging/LoggingApplicationListener
+[0.815s][warning][cds] resolve_indy for class org/springframework/core/io/DefaultResourceLoader has encountered exception: java.lang.NoClassDefFoundError org/springframework/core/io/DefaultResourceLoader
+[0.815s][warning][cds] resolve_indy for class org/springframework/context/index/CandidateComponentsIndexLoader has encountered exception: java.lang.NoClassDefFoundError org/springframework/context/index/CandidateComponentsIndexLoader
+[0.817s][warning][cds] resolve_indy for class org/springframework/util/MimeType has encountered exception: java.lang.NoClassDefFoundError org/springframework/util/MimeType
+[0.817s][warning][cds] resolve_indy for class org/springframework/http/MediaType has encountered exception: java.lang.NoClassDefFoundError org/springframework/http/MediaType
+[0.817s][warning][cds] resolve_indy for class org/springframework/boot/StartupInfoLogger has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/StartupInfoLogger
+[0.817s][warning][cds] resolve_indy for class org/springframework/boot/StartupInfoLogger has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/StartupInfoLogger
+[0.817s][warning][cds] resolve_indy for class org/springframework/boot/StartupInfoLogger has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/StartupInfoLogger
+[0.817s][warning][cds] resolve_indy for class org/springframework/boot/StartupInfoLogger has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/StartupInfoLogger
+[0.818s][warning][cds] resolve_indy for class org/springframework/boot/StartupInfoLogger has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/StartupInfoLogger
+[0.818s][warning][cds] resolve_indy for class org/springframework/core/log/CompositeLog has encountered exception: java.lang.NoClassDefFoundError org/springframework/core/log/CompositeLog
+[0.818s][warning][cds] resolve_indy for class org/springframework/core/log/CompositeLog has encountered exception: java.lang.NoClassDefFoundError org/springframework/core/log/CompositeLog
+[0.818s][warning][cds] resolve_indy for class org/springframework/core/log/CompositeLog has encountered exception: java.lang.NoClassDefFoundError org/springframework/core/log/CompositeLog
+[0.818s][warning][cds] resolve_indy for class org/springframework/core/log/CompositeLog has encountered exception: java.lang.NoClassDefFoundError org/springframework/core/log/CompositeLog
+[0.818s][warning][cds] resolve_indy for class org/springframework/core/log/CompositeLog has encountered exception: java.lang.NoClassDefFoundError org/springframework/core/log/CompositeLog
+[0.818s][warning][cds] resolve_indy for class org/springframework/core/log/CompositeLog has encountered exception: java.lang.NoClassDefFoundError org/springframework/core/log/CompositeLog
+[0.822s][warning][cds] resolve_indy for class org/springframework/http/converter/xml/SourceHttpMessageConverter has encountered exception: java.lang.NoClassDefFoundError org/springframework/http/converter/xml/SourceHttpMessageConverter
+[0.822s][warning][cds] resolve_indy for class org/springframework/http/converter/xml/SourceHttpMessageConverter has encountered exception: java.lang.NoClassDefFoundError org/springframework/http/converter/xml/SourceHttpMessageConverter
+[0.839s][warning][cds] resolve_indy for class org/springframework/core/annotation/AnnotationUtils has encountered exception: java.lang.NoClassDefFoundError org/springframework/core/annotation/AnnotationUtils
+[0.842s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/SharedMetadataReaderFactoryContextInitializer$CachingMetadataReaderFactoryPostProcessor has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/SharedMetadataReaderFactoryContextInitializer$CachingMetadataReaderFactoryPostProcessor
+[0.842s][warning][cds] resolve_indy for class org/springframework/core/annotation/AnnotationAttributes has encountered exception: java.lang.NoClassDefFoundError org/springframework/core/annotation/AnnotationAttributes
+[0.842s][warning][cds] resolve_indy for class org/springframework/beans/factory/BeanFactoryUtils has encountered exception: java.lang.NoClassDefFoundError org/springframework/beans/factory/BeanFactoryUtils
+[0.842s][warning][cds] resolve_indy for class org/springframework/beans/factory/support/AbstractBeanFactory has encountered exception: java.lang.NoClassDefFoundError org/springframework/beans/factory/support/AbstractBeanFactory
+[0.843s][warning][cds] resolve_indy for class org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory has encountered exception: java.lang.NoClassDefFoundError org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory
+[0.843s][warning][cds] resolve_indy for class org/springframework/beans/factory/support/DefaultSingletonBeanRegistry has encountered exception: java.lang.NoClassDefFoundError org/springframework/beans/factory/support/DefaultSingletonBeanRegistry
+[0.843s][warning][cds] resolve_indy for class org/springframework/beans/factory/support/DefaultSingletonBeanRegistry has encountered exception: java.lang.NoClassDefFoundError org/springframework/beans/factory/support/DefaultSingletonBeanRegistry
+[0.860s][warning][cds] resolve_indy for class org/springframework/core/MethodParameter has encountered exception: java.lang.NoClassDefFoundError org/springframework/core/MethodParameter
+[0.861s][warning][cds] resolve_indy for class org/springframework/context/annotation/ConfigurationClassPostProcessor has encountered exception: java.lang.NoClassDefFoundError org/springframework/context/annotation/ConfigurationClassPostProcessor
+[0.861s][warning][cds] resolve_indy for class org/springframework/context/annotation/ConfigurationClassParser has encountered exception: java.lang.NoClassDefFoundError org/springframework/context/annotation/ConfigurationClassParser
+[0.862s][warning][cds] resolve_indy for class org/springframework/context/annotation/ConfigurationClassParser$DeferredImportSelectorHandler has encountered exception: java.lang.NoClassDefFoundError org/springframework/context/annotation/ConfigurationClassParser$DeferredImportSelectorHandler
+[0.862s][warning][cds] resolve_indy for class org/springframework/context/annotation/ConfigurationClassParser$DeferredImportSelectorGroupingHandler has encountered exception: java.lang.NoClassDefFoundError org/springframework/context/annotation/ConfigurationClassParser$DeferredImportSelectorGroupingHandler
+[0.862s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/AutoConfigurationImportSelector$AutoConfigurationGroup has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/AutoConfigurationImportSelector$AutoConfigurationGroup
+[0.862s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/AutoConfigurationImportSelector has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/AutoConfigurationImportSelector
+[0.862s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/AutoConfigurationImportSelector has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/AutoConfigurationImportSelector
+[0.862s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/condition/OnClassCondition$ThreadedOutcomesResolver has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/condition/OnClassCondition$ThreadedOutcomesResolver
+[0.868s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/AutoConfigurationImportSelector$AutoConfigurationGroup has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/AutoConfigurationImportSelector$AutoConfigurationGroup
+[0.868s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/AutoConfigurationImportSelector$AutoConfigurationGroup has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/AutoConfigurationImportSelector$AutoConfigurationGroup
+[0.869s][warning][cds] resolve_indy for class com/fasterxml/jackson/datatype/jsr310/deser/InstantDeserializer has encountered exception: java.lang.NoClassDefFoundError com/fasterxml/jackson/datatype/jsr310/deser/InstantDeserializer
+[0.869s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/AutoConfigurationImportSelector$AutoConfigurationGroup has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/AutoConfigurationImportSelector$AutoConfigurationGroup
+[0.869s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/AutoConfigurationImportSelector$AutoConfigurationGroup has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/AutoConfigurationImportSelector$AutoConfigurationGroup
+[0.869s][warning][cds] resolve_indy for class com/fasterxml/jackson/datatype/jsr310/deser/InstantDeserializer has encountered exception: java.lang.NoClassDefFoundError com/fasterxml/jackson/datatype/jsr310/deser/InstantDeserializer
+[0.869s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/AutoConfigurationImportSelector$AutoConfigurationGroup has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/AutoConfigurationImportSelector$AutoConfigurationGroup
+[0.870s][warning][cds] resolve_indy for class com/fasterxml/jackson/datatype/jsr310/deser/InstantDeserializer has encountered exception: java.lang.NoClassDefFoundError com/fasterxml/jackson/datatype/jsr310/deser/InstantDeserializer
+[0.871s][warning][cds] resolve_indy for class com/fasterxml/jackson/datatype/jsr310/deser/InstantDeserializer has encountered exception: java.lang.NoClassDefFoundError com/fasterxml/jackson/datatype/jsr310/deser/InstantDeserializer
+[0.871s][warning][cds] resolve_indy for class com/fasterxml/jackson/datatype/jsr310/deser/InstantDeserializer has encountered exception: java.lang.NoClassDefFoundError com/fasterxml/jackson/datatype/jsr310/deser/InstantDeserializer
+[0.871s][warning][cds] resolve_indy for class com/fasterxml/jackson/datatype/jsr310/deser/InstantDeserializer has encountered exception: java.lang.NoClassDefFoundError com/fasterxml/jackson/datatype/jsr310/deser/InstantDeserializer
+[0.871s][warning][cds] resolve_indy for class com/fasterxml/jackson/datatype/jsr310/deser/InstantDeserializer has encountered exception: java.lang.NoClassDefFoundError com/fasterxml/jackson/datatype/jsr310/deser/InstantDeserializer
+[0.871s][warning][cds] resolve_indy for class com/fasterxml/jackson/datatype/jsr310/deser/InstantDeserializer has encountered exception: java.lang.NoClassDefFoundError com/fasterxml/jackson/datatype/jsr310/deser/InstantDeserializer
+[0.871s][warning][cds] resolve_indy for class com/fasterxml/jackson/datatype/jsr310/deser/InstantDeserializer has encountered exception: java.lang.NoClassDefFoundError com/fasterxml/jackson/datatype/jsr310/deser/InstantDeserializer
+[0.871s][warning][cds] resolve_indy for class com/fasterxml/jackson/datatype/jsr310/deser/InstantDeserializer has encountered exception: java.lang.NoClassDefFoundError com/fasterxml/jackson/datatype/jsr310/deser/InstantDeserializer
+[0.871s][warning][cds] resolve_indy for class com/fasterxml/jackson/datatype/jsr310/deser/InstantDeserializer has encountered exception: java.lang.NoClassDefFoundError com/fasterxml/jackson/datatype/jsr310/deser/InstantDeserializer
+[0.871s][warning][cds] resolve_indy for class com/fasterxml/jackson/datatype/jsr310/deser/InstantDeserializer has encountered exception: java.lang.NoClassDefFoundError com/fasterxml/jackson/datatype/jsr310/deser/InstantDeserializer
+[0.871s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/AutoConfigurationSorter has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/AutoConfigurationSorter
+[0.871s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/AutoConfigurationSorter$AutoConfigurationClasses has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/AutoConfigurationSorter$AutoConfigurationClasses
+[0.871s][warning][cds] resolve_indy for class com/fasterxml/jackson/datatype/jsr310/ser/InstantSerializer has encountered exception: java.lang.NoClassDefFoundError com/fasterxml/jackson/datatype/jsr310/ser/InstantSerializer
+[0.872s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/AutoConfigurationImportSelector$AutoConfigurationGroup has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/AutoConfigurationImportSelector$AutoConfigurationGroup
+[0.872s][warning][cds] resolve_indy for class com/fasterxml/jackson/datatype/jsr310/ser/InstantSerializer has encountered exception: java.lang.NoClassDefFoundError com/fasterxml/jackson/datatype/jsr310/ser/InstantSerializer
+[0.872s][warning][cds] resolve_indy for class org/springframework/context/annotation/ConfigurationClassParser$DeferredImportSelectorGroupingHandler has encountered exception: java.lang.NoClassDefFoundError org/springframework/context/annotation/ConfigurationClassParser$DeferredImportSelectorGroupingHandler
+[0.872s][warning][cds] resolve_indy for class com/fasterxml/jackson/datatype/jsr310/ser/InstantSerializer has encountered exception: java.lang.NoClassDefFoundError com/fasterxml/jackson/datatype/jsr310/ser/InstantSerializer
+[0.872s][warning][cds] resolve_indy for class com/fasterxml/jackson/datatype/jsr310/ser/OffsetDateTimeSerializer has encountered exception: java.lang.NoClassDefFoundError com/fasterxml/jackson/datatype/jsr310/ser/OffsetDateTimeSerializer
+[0.872s][warning][cds] resolve_indy for class com/fasterxml/jackson/datatype/jsr310/ser/OffsetDateTimeSerializer has encountered exception: java.lang.NoClassDefFoundError com/fasterxml/jackson/datatype/jsr310/ser/OffsetDateTimeSerializer
+[0.872s][warning][cds] resolve_indy for class com/fasterxml/jackson/datatype/jsr310/ser/OffsetDateTimeSerializer has encountered exception: java.lang.NoClassDefFoundError com/fasterxml/jackson/datatype/jsr310/ser/OffsetDateTimeSerializer
+[0.872s][warning][cds] resolve_indy for class com/fasterxml/jackson/datatype/jsr310/ser/ZonedDateTimeSerializer has encountered exception: java.lang.NoClassDefFoundError com/fasterxml/jackson/datatype/jsr310/ser/ZonedDateTimeSerializer
+[0.872s][warning][cds] resolve_indy for class com/fasterxml/jackson/datatype/jsr310/ser/ZonedDateTimeSerializer has encountered exception: java.lang.NoClassDefFoundError com/fasterxml/jackson/datatype/jsr310/ser/ZonedDateTimeSerializer
+[0.872s][warning][cds] resolve_indy for class com/fasterxml/jackson/datatype/jsr310/ser/ZonedDateTimeSerializer has encountered exception: java.lang.NoClassDefFoundError com/fasterxml/jackson/datatype/jsr310/ser/ZonedDateTimeSerializer
+[0.873s][warning][cds] resolve_indy for class org/springframework/http/converter/json/Jackson2ObjectMapperBuilder has encountered exception: java.lang.NoClassDefFoundError org/springframework/http/converter/json/Jackson2ObjectMapperBuilder
+[0.873s][warning][cds] resolve_indy for class org/springframework/http/converter/json/Jackson2ObjectMapperBuilder has encountered exception: java.lang.NoClassDefFoundError org/springframework/http/converter/json/Jackson2ObjectMapperBuilder
+[0.873s][warning][cds] resolve_indy for class org/springframework/http/converter/json/Jackson2ObjectMapperBuilder has encountered exception: java.lang.NoClassDefFoundError org/springframework/http/converter/json/Jackson2ObjectMapperBuilder
+[0.873s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/condition/OnPropertyCondition has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/condition/OnPropertyCondition
+[0.873s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/cache/CacheConfigurations has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/cache/CacheConfigurations
+[0.873s][warning][cds] resolve_indy for class org/springframework/boot/context/properties/source/ConfigurationPropertyName has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/properties/source/ConfigurationPropertyName
+[0.873s][warning][cds] resolve_indy for class org/springframework/context/annotation/ConfigurationClassBeanDefinitionReader has encountered exception: java.lang.NoClassDefFoundError org/springframework/context/annotation/ConfigurationClassBeanDefinitionReader
+[0.873s][warning][cds] resolve_indy for class org/springframework/context/annotation/ConfigurationClassBeanDefinitionReader has encountered exception: java.lang.NoClassDefFoundError org/springframework/context/annotation/ConfigurationClassBeanDefinitionReader
+[0.874s][warning][cds] resolve_indy for class org/springframework/core/type/classreading/MethodMetadataReadingVisitor has encountered exception: java.lang.NoClassDefFoundError org/springframework/core/type/classreading/MethodMetadataReadingVisitor
+[0.874s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/condition/OnBeanCondition$BeanSearchSpec has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/condition/OnBeanCondition$BeanSearchSpec
+[0.874s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/condition/OnBeanCondition$BeanSearchSpec has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/condition/OnBeanCondition$BeanSearchSpec
+[0.875s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/condition/BeanTypeRegistry has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/condition/BeanTypeRegistry
+[0.875s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/condition/BeanTypeRegistry has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/condition/BeanTypeRegistry
+[0.875s][warning][cds] resolve_indy for class org/springframework/beans/factory/config/ConstructorArgumentValues has encountered exception: java.lang.NoClassDefFoundError org/springframework/beans/factory/config/ConstructorArgumentValues
+[0.875s][warning][cds] resolve_indy for class org/springframework/beans/factory/config/ConstructorArgumentValues has encountered exception: java.lang.NoClassDefFoundError org/springframework/beans/factory/config/ConstructorArgumentValues
+[0.875s][warning][cds] resolve_indy for class org/springframework/beans/factory/config/ConstructorArgumentValues has encountered exception: java.lang.NoClassDefFoundError org/springframework/beans/factory/config/ConstructorArgumentValues
+[0.876s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/condition/BeanTypeRegistry has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/condition/BeanTypeRegistry
+[0.876s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/condition/BeanTypeRegistry has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/condition/BeanTypeRegistry
+[0.876s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/condition/BeanTypeRegistry has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/condition/BeanTypeRegistry
+[0.876s][warning][cds] resolve_indy for class org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory has encountered exception: java.lang.NoClassDefFoundError org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory
+[0.876s][warning][cds] resolve_indy for class org/springframework/util/ReflectionUtils has encountered exception: java.lang.NoClassDefFoundError org/springframework/util/ReflectionUtils
+[0.877s][warning][cds] resolve_indy for class org/springframework/boot/context/properties/EnableConfigurationPropertiesImportSelector$ConfigurationPropertiesBeanRegistrar has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/properties/EnableConfigurationPropertiesImportSelector$ConfigurationPropertiesBeanRegistrar
+[0.877s][warning][cds] resolve_indy for class org/springframework/boot/context/properties/EnableConfigurationPropertiesImportSelector$ConfigurationPropertiesBeanRegistrar has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/properties/EnableConfigurationPropertiesImportSelector$ConfigurationPropertiesBeanRegistrar
+[0.877s][warning][cds] resolve_indy for class org/springframework/boot/context/properties/EnableConfigurationPropertiesImportSelector$ConfigurationPropertiesBeanRegistrar has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/properties/EnableConfigurationPropertiesImportSelector$ConfigurationPropertiesBeanRegistrar
+[0.877s][warning][cds] resolve_indy for class org/springframework/boot/context/properties/EnableConfigurationPropertiesImportSelector$ConfigurationPropertiesBeanRegistrar has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/properties/EnableConfigurationPropertiesImportSelector$ConfigurationPropertiesBeanRegistrar
+[0.877s][warning][cds] resolve_indy for class org/springframework/boot/context/properties/EnableConfigurationPropertiesImportSelector$ConfigurationPropertiesBeanRegistrar has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/properties/EnableConfigurationPropertiesImportSelector$ConfigurationPropertiesBeanRegistrar
+[0.878s][warning][cds] resolve_indy for class org/springframework/util/ReflectionUtils has encountered exception: java.lang.NoClassDefFoundError org/springframework/util/ReflectionUtils
+[0.878s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/condition/OnBeanCondition has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/condition/OnBeanCondition
+[0.882s][warning][cds] resolve_indy for class org/springframework/context/support/PropertySourcesPlaceholderConfigurer has encountered exception: java.lang.NoClassDefFoundError org/springframework/context/support/PropertySourcesPlaceholderConfigurer
+[0.882s][warning][cds] resolve_indy for class org/springframework/core/SimpleAliasRegistry has encountered exception: java.lang.NoClassDefFoundError org/springframework/core/SimpleAliasRegistry
+[0.882s][warning][cds] resolve_indy for class org/springframework/beans/factory/support/AbstractBeanFactory has encountered exception: java.lang.NoClassDefFoundError org/springframework/beans/factory/support/AbstractBeanFactory
+[0.883s][warning][cds] resolve_indy for class org/springframework/beans/factory/support/AutowireUtils has encountered exception: java.lang.NoClassDefFoundError org/springframework/beans/factory/support/AutowireUtils
+[0.883s][warning][cds] resolve_indy for class org/springframework/core/SimpleAliasRegistry has encountered exception: java.lang.NoClassDefFoundError org/springframework/core/SimpleAliasRegistry
+[0.883s][warning][cds] resolve_indy for class org/springframework/beans/factory/annotation/InitDestroyAnnotationBeanPostProcessor has encountered exception: java.lang.NoClassDefFoundError org/springframework/beans/factory/annotation/InitDestroyAnnotationBeanPostProcessor
+[0.883s][warning][cds] resolve_indy for class org/springframework/context/annotation/CommonAnnotationBeanPostProcessor has encountered exception: java.lang.NoClassDefFoundError org/springframework/context/annotation/CommonAnnotationBeanPostProcessor
+[0.883s][warning][cds] resolve_indy for class org/springframework/context/annotation/CommonAnnotationBeanPostProcessor has encountered exception: java.lang.NoClassDefFoundError org/springframework/context/annotation/CommonAnnotationBeanPostProcessor
+[0.883s][warning][cds] resolve_indy for class org/springframework/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor has encountered exception: java.lang.NoClassDefFoundError org/springframework/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor
+[0.883s][warning][cds] resolve_indy for class org/springframework/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor has encountered exception: java.lang.NoClassDefFoundError org/springframework/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor
+[0.883s][warning][cds] resolve_indy for class org/springframework/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor has encountered exception: java.lang.NoClassDefFoundError org/springframework/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor
+[0.884s][warning][cds] resolve_indy for class org/springframework/http/client/reactive/ReactorResourceFactory has encountered exception: java.lang.NoClassDefFoundError org/springframework/http/client/reactive/ReactorResourceFactory
+[0.884s][warning][cds] resolve_indy for class org/springframework/http/client/reactive/ReactorResourceFactory has encountered exception: java.lang.NoClassDefFoundError org/springframework/http/client/reactive/ReactorResourceFactory
+[0.884s][warning][cds] resolve_indy for class org/springframework/boot/context/properties/ConfigurationBeanFactoryMetadata has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/properties/ConfigurationBeanFactoryMetadata
+[0.885s][warning][cds] resolve_indy for class reactor/netty/tcp/TcpResources has encountered exception: java.lang.NoClassDefFoundError reactor/netty/tcp/TcpResources
+[0.885s][warning][cds] resolve_indy for class reactor/netty/http/HttpResources has encountered exception: java.lang.NoClassDefFoundError reactor/netty/http/HttpResources
+[0.971s][warning][cds] resolve_indy for class reactor/netty/resources/ColocatedEventLoopGroup has encountered exception: java.lang.NoClassDefFoundError reactor/netty/resources/ColocatedEventLoopGroup
+[0.972s][warning][cds] resolve_indy for class reactor/netty/resources/ConnectionProvider has encountered exception: java.lang.NoClassDefFoundError reactor/netty/resources/ConnectionProvider
+[0.972s][warning][cds] resolve_indy for class org/springframework/boot/context/properties/ConfigurationPropertiesBinder has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/properties/ConfigurationPropertiesBinder
+[0.972s][warning][cds] resolve_indy for class org/springframework/beans/factory/support/DefaultListableBeanFactory has encountered exception: java.lang.NoClassDefFoundError org/springframework/beans/factory/support/DefaultListableBeanFactory
+[0.972s][warning][cds] resolve_indy for class org/springframework/core/OrderComparator has encountered exception: java.lang.NoClassDefFoundError org/springframework/core/OrderComparator
+[0.974s][warning][cds] resolve_indy for class org/springframework/boot/context/properties/ConfigurationPropertiesBinder has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/properties/ConfigurationPropertiesBinder
+[0.974s][warning][cds] resolve_indy for class org/springframework/boot/context/properties/bind/Binder has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/properties/bind/Binder
+[0.974s][warning][cds] resolve_indy for class org/springframework/boot/context/properties/bind/Binder has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/properties/bind/Binder
+[0.974s][warning][cds] resolve_indy for class org/springframework/boot/context/properties/bind/Binder has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/properties/bind/Binder
+[0.974s][warning][cds] resolve_indy for class org/springframework/boot/context/properties/bind/Binder has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/properties/bind/Binder
+[0.974s][warning][cds] resolve_indy for class org/springframework/boot/context/properties/bind/JavaBeanBinder$Bean has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/properties/bind/JavaBeanBinder$Bean
+[0.974s][warning][cds] resolve_indy for class org/springframework/boot/context/properties/bind/JavaBeanBinder$Bean has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/properties/bind/JavaBeanBinder$Bean
+[0.974s][warning][cds] resolve_indy for class org/springframework/boot/context/properties/bind/JavaBeanBinder$Bean has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/properties/bind/JavaBeanBinder$Bean
+[0.974s][warning][cds] resolve_indy for class org/springframework/boot/context/properties/bind/JavaBeanBinder$Bean has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/properties/bind/JavaBeanBinder$Bean
+[0.975s][warning][cds] resolve_indy for class org/springframework/boot/context/properties/bind/JavaBeanBinder$Bean has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/properties/bind/JavaBeanBinder$Bean
+[0.975s][warning][cds] resolve_indy for class org/springframework/boot/context/properties/bind/JavaBeanBinder$BeanProperty has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/properties/bind/JavaBeanBinder$BeanProperty
+[0.975s][warning][cds] resolve_indy for class org/springframework/boot/context/properties/source/ConfigurationPropertyName$Elements has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/properties/source/ConfigurationPropertyName$Elements
+[0.975s][warning][cds] resolve_indy for class org/springframework/boot/context/properties/bind/PropertySourcesPlaceholdersResolver has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/properties/bind/PropertySourcesPlaceholdersResolver
+[0.975s][warning][cds] resolve_indy for class org/springframework/boot/web/server/WebServerFactoryCustomizerBeanPostProcessor has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/web/server/WebServerFactoryCustomizerBeanPostProcessor
+[0.975s][warning][cds] resolve_indy for class org/springframework/boot/util/LambdaSafe$Callbacks has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/util/LambdaSafe$Callbacks
+[0.975s][warning][cds] resolve_indy for class org/springframework/boot/util/LambdaSafe$Callbacks has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/util/LambdaSafe$Callbacks
+[0.975s][warning][cds] resolve_indy for class org/springframework/boot/context/properties/PropertyMapper has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/properties/PropertyMapper
+[0.975s][warning][cds] resolve_indy for class org/springframework/boot/context/properties/PropertyMapper has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/properties/PropertyMapper
+[0.975s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/web/reactive/ReactiveWebServerFactoryCustomizer has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/web/reactive/ReactiveWebServerFactoryCustomizer
+[0.976s][warning][cds] resolve_indy for class org/springframework/boot/context/properties/PropertyMapper$Source has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/properties/PropertyMapper$Source
+[0.976s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/web/reactive/ReactiveWebServerFactoryCustomizer has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/web/reactive/ReactiveWebServerFactoryCustomizer
+[0.976s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/web/reactive/ReactiveWebServerFactoryCustomizer has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/web/reactive/ReactiveWebServerFactoryCustomizer
+[0.976s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/web/reactive/ReactiveWebServerFactoryCustomizer has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/web/reactive/ReactiveWebServerFactoryCustomizer
+[0.976s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/web/reactive/ReactiveWebServerFactoryCustomizer has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/web/reactive/ReactiveWebServerFactoryCustomizer
+[0.976s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/web/reactive/ReactiveWebServerFactoryCustomizer has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/web/reactive/ReactiveWebServerFactoryCustomizer
+[0.976s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/web/reactive/ReactiveWebServerFactoryCustomizer has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/web/reactive/ReactiveWebServerFactoryCustomizer
+[0.976s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/web/reactive/ReactiveWebServerFactoryCustomizer has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/web/reactive/ReactiveWebServerFactoryCustomizer
+[0.976s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/web/reactive/ReactiveWebServerFactoryCustomizer has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/web/reactive/ReactiveWebServerFactoryCustomizer
+[0.976s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/web/reactive/ReactiveWebServerFactoryCustomizer has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/web/reactive/ReactiveWebServerFactoryCustomizer
+[0.976s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/web/embedded/NettyWebServerFactoryCustomizer has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/web/embedded/NettyWebServerFactoryCustomizer
+[0.976s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/web/embedded/NettyWebServerFactoryCustomizer has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/web/embedded/NettyWebServerFactoryCustomizer
+[0.976s][warning][cds] resolve_indy for class org/springframework/boot/context/properties/PropertyMapper$Source has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/properties/PropertyMapper$Source
+[0.976s][warning][cds] resolve_indy for class org/springframework/boot/context/properties/PropertyMapper$Source has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/properties/PropertyMapper$Source
+[0.977s][warning][cds] resolve_indy for class org/springframework/boot/context/properties/PropertyMapper$Source has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/properties/PropertyMapper$Source
+[0.977s][warning][cds] resolve_indy for class org/springframework/boot/context/properties/PropertyMapper$Source has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/properties/PropertyMapper$Source
+[0.977s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/web/embedded/NettyWebServerFactoryCustomizer has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/web/embedded/NettyWebServerFactoryCustomizer
+[0.977s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/web/embedded/NettyWebServerFactoryCustomizer has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/web/embedded/NettyWebServerFactoryCustomizer
+[0.977s][warning][cds] resolve_indy for class org/springframework/boot/web/reactive/context/ReactiveWebServerApplicationContext$ServerManager has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/web/reactive/context/ReactiveWebServerApplicationContext$ServerManager
+[0.979s][warning][cds] resolve_indy for class reactor/netty/tcp/TcpUtils has encountered exception: java.lang.NoClassDefFoundError reactor/netty/tcp/TcpUtils
+[0.979s][warning][cds] resolve_indy for class reactor/netty/http/server/HttpServer has encountered exception: java.lang.NoClassDefFoundError reactor/netty/http/server/HttpServer
+[0.979s][warning][cds] resolve_indy for class reactor/netty/http/server/HttpServer has encountered exception: java.lang.NoClassDefFoundError reactor/netty/http/server/HttpServer
+[0.979s][warning][cds] resolve_indy for class reactor/netty/http/server/HttpServer has encountered exception: java.lang.NoClassDefFoundError reactor/netty/http/server/HttpServer
+[0.979s][warning][cds] resolve_indy for class reactor/netty/http/server/HttpServer has encountered exception: java.lang.NoClassDefFoundError reactor/netty/http/server/HttpServer
+[0.979s][warning][cds] resolve_indy for class reactor/netty/http/server/HttpServerBind has encountered exception: java.lang.NoClassDefFoundError reactor/netty/http/server/HttpServerBind
+[0.979s][warning][cds] resolve_indy for class org/springframework/boot/web/embedded/netty/NettyReactiveWebServerFactory has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/web/embedded/netty/NettyReactiveWebServerFactory
+[0.979s][warning][cds] resolve_indy for class reactor/netty/http/server/HttpServer has encountered exception: java.lang.NoClassDefFoundError reactor/netty/http/server/HttpServer
+[0.979s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/web/embedded/NettyWebServerFactoryCustomizer has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/web/embedded/NettyWebServerFactoryCustomizer
+[0.980s][warning][cds] resolve_indy for class reactor/netty/http/server/HttpRequestDecoderSpec has encountered exception: java.lang.NoClassDefFoundError reactor/netty/http/server/HttpRequestDecoderSpec
+[0.980s][warning][cds] resolve_indy for class org/springframework/beans/factory/support/AutowireUtils has encountered exception: java.lang.NoClassDefFoundError org/springframework/beans/factory/support/AutowireUtils
+[0.980s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/jackson/JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration$StandardJackson2ObjectMapperBuilderCustomizer has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/jackson/JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration$StandardJackson2ObjectMapperBuilderCustomizer
+[0.980s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/jackson/JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration$StandardJackson2ObjectMapperBuilderCustomizer has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/jackson/JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration$StandardJackson2ObjectMapperBuilderCustomizer
+[0.981s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/http/codec/CodecsAutoConfiguration$LoggingCodecConfiguration has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/http/codec/CodecsAutoConfiguration$LoggingCodecConfiguration
+[0.981s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/http/codec/CodecsAutoConfiguration$JacksonCodecConfiguration has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/http/codec/CodecsAutoConfiguration$JacksonCodecConfiguration
+[0.981s][warning][cds] resolve_indy for class org/springframework/validation/beanvalidation/LocalValidatorFactoryBean has encountered exception: java.lang.NoClassDefFoundError org/springframework/validation/beanvalidation/LocalValidatorFactoryBean
+[0.981s][warning][cds] resolve_indy for class org/hibernate/validator/internal/engine/ValidatorFactoryImpl has encountered exception: java.lang.NoClassDefFoundError org/hibernate/validator/internal/engine/ValidatorFactoryImpl
+[0.982s][warning][cds] resolve_indy for class org/hibernate/validator/internal/metadata/provider/AnnotationMetaDataProvider has encountered exception: java.lang.NoClassDefFoundError org/hibernate/validator/internal/metadata/provider/AnnotationMetaDataProvider
+[0.983s][warning][cds] resolve_indy for class org/hibernate/validator/internal/metadata/provider/AnnotationMetaDataProvider has encountered exception: java.lang.NoClassDefFoundError org/hibernate/validator/internal/metadata/provider/AnnotationMetaDataProvider
+[0.983s][warning][cds] resolve_indy for class org/hibernate/validator/internal/metadata/provider/AnnotationMetaDataProvider has encountered exception: java.lang.NoClassDefFoundError org/hibernate/validator/internal/metadata/provider/AnnotationMetaDataProvider
+[0.985s][warning][cds] resolve_indy for class org/springframework/boot/context/properties/bind/handler/NoUnboundElementsBindHandler has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/properties/bind/handler/NoUnboundElementsBindHandler
+[0.990s][warning][cds] resolve_indy for class org/springframework/web/reactive/config/WebFluxConfigurerComposite has encountered exception: java.lang.NoClassDefFoundError org/springframework/web/reactive/config/WebFluxConfigurerComposite
+[0.990s][warning][cds] resolve_indy for class org/springframework/beans/factory/support/DefaultListableBeanFactory has encountered exception: java.lang.NoClassDefFoundError org/springframework/beans/factory/support/DefaultListableBeanFactory
+[0.990s][warning][cds] resolve_indy for class org/springframework/beans/factory/support/DefaultListableBeanFactory has encountered exception: java.lang.NoClassDefFoundError org/springframework/beans/factory/support/DefaultListableBeanFactory
+[0.990s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/web/reactive/WebFluxAutoConfiguration$WebFluxConfig has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/web/reactive/WebFluxAutoConfiguration$WebFluxConfig
+[0.992s][warning][cds] resolve_indy for class org/springframework/http/MediaType has encountered exception: java.lang.NoClassDefFoundError org/springframework/http/MediaType
+[0.993s][warning][cds] resolve_indy for class org/springframework/http/codec/EncoderHttpMessageWriter has encountered exception: java.lang.NoClassDefFoundError org/springframework/http/codec/EncoderHttpMessageWriter
+[0.993s][warning][cds] resolve_indy for class org/springframework/core/codec/StringDecoder has encountered exception: java.lang.NoClassDefFoundError org/springframework/core/codec/StringDecoder
+[0.993s][warning][cds] resolve_indy for class org/springframework/web/reactive/config/WebFluxConfigurerComposite has encountered exception: java.lang.NoClassDefFoundError org/springframework/web/reactive/config/WebFluxConfigurerComposite
+[0.993s][warning][cds] resolve_indy for class org/springframework/web/reactive/config/WebFluxConfigurerComposite has encountered exception: java.lang.NoClassDefFoundError org/springframework/web/reactive/config/WebFluxConfigurerComposite
+[0.993s][warning][cds] resolve_indy for class org/springframework/web/reactive/config/WebFluxConfigurerComposite has encountered exception: java.lang.NoClassDefFoundError org/springframework/web/reactive/config/WebFluxConfigurerComposite
+[0.993s][warning][cds] resolve_indy for class org/springframework/web/reactive/handler/AbstractHandlerMapping has encountered exception: java.lang.NoClassDefFoundError org/springframework/web/reactive/handler/AbstractHandlerMapping
+[0.993s][warning][cds] resolve_indy for class org/springframework/web/reactive/accept/RequestedContentTypeResolverBuilder has encountered exception: java.lang.NoClassDefFoundError org/springframework/web/reactive/accept/RequestedContentTypeResolverBuilder
+[0.993s][warning][cds] resolve_indy for class org/springframework/web/reactive/config/WebFluxConfigurerComposite has encountered exception: java.lang.NoClassDefFoundError org/springframework/web/reactive/config/WebFluxConfigurerComposite
+[0.993s][warning][cds] resolve_indy for class org/springframework/web/reactive/config/WebFluxConfigurerComposite has encountered exception: java.lang.NoClassDefFoundError org/springframework/web/reactive/config/WebFluxConfigurerComposite
+[0.993s][warning][cds] resolve_indy for class org/springframework/web/cors/reactive/UrlBasedCorsConfigurationSource has encountered exception: java.lang.NoClassDefFoundError org/springframework/web/cors/reactive/UrlBasedCorsConfigurationSource
+[0.993s][warning][cds] resolve_indy for class org/springframework/web/reactive/config/WebFluxConfigurerComposite has encountered exception: java.lang.NoClassDefFoundError org/springframework/web/reactive/config/WebFluxConfigurerComposite
+[0.993s][warning][cds] resolve_indy for class org/springframework/web/reactive/result/method/AbstractHandlerMethodMapping has encountered exception: java.lang.NoClassDefFoundError org/springframework/web/reactive/result/method/AbstractHandlerMethodMapping
+[0.994s][warning][cds] resolve_indy for class org/springframework/core/MethodIntrospector has encountered exception: java.lang.NoClassDefFoundError org/springframework/core/MethodIntrospector
+[0.994s][warning][cds] resolve_indy for class org/springframework/core/annotation/MapAnnotationAttributeExtractor has encountered exception: java.lang.NoClassDefFoundError org/springframework/core/annotation/MapAnnotationAttributeExtractor
+[0.994s][warning][cds] resolve_indy for class org/springframework/web/reactive/result/method/RequestMappingInfo$DefaultBuilder has encountered exception: java.lang.NoClassDefFoundError org/springframework/web/reactive/result/method/RequestMappingInfo$DefaultBuilder
+[0.994s][warning][cds] resolve_indy for class org/springframework/http/server/DefaultPathContainer has encountered exception: java.lang.NoClassDefFoundError org/springframework/http/server/DefaultPathContainer
+[0.994s][warning][cds] resolve_indy for class org/springframework/web/util/pattern/PathPattern has encountered exception: java.lang.NoClassDefFoundError org/springframework/web/util/pattern/PathPattern
+[0.994s][warning][cds] resolve_indy for class org/springframework/web/util/pattern/PathPattern has encountered exception: java.lang.NoClassDefFoundError org/springframework/web/util/pattern/PathPattern
+[0.994s][warning][cds] resolve_indy for class org/springframework/web/util/pattern/PathPattern has encountered exception: java.lang.NoClassDefFoundError org/springframework/web/util/pattern/PathPattern
+[0.994s][warning][cds] resolve_indy for class org/springframework/web/util/pattern/PathPattern has encountered exception: java.lang.NoClassDefFoundError org/springframework/web/util/pattern/PathPattern
+[0.994s][warning][cds] resolve_indy for class org/springframework/web/reactive/result/method/AbstractHandlerMethodMapping has encountered exception: java.lang.NoClassDefFoundError org/springframework/web/reactive/result/method/AbstractHandlerMethodMapping
+[0.994s][warning][cds] resolve_indy for class org/springframework/web/reactive/function/server/support/RouterFunctionMapping has encountered exception: java.lang.NoClassDefFoundError org/springframework/web/reactive/function/server/support/RouterFunctionMapping
+[0.995s][warning][cds] resolve_indy for class org/springframework/web/reactive/function/server/support/RouterFunctionMapping has encountered exception: java.lang.NoClassDefFoundError org/springframework/web/reactive/function/server/support/RouterFunctionMapping
+[0.995s][warning][cds] resolve_indy for class org/springframework/web/reactive/config/WebFluxConfigurerComposite has encountered exception: java.lang.NoClassDefFoundError org/springframework/web/reactive/config/WebFluxConfigurerComposite
+[0.995s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/web/ResourceProperties$Cache$Cachecontrol has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/web/ResourceProperties$Cache$Cachecontrol
+[0.995s][warning][cds] resolve_indy for class org/springframework/boot/context/properties/PropertyMapper$Source has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/context/properties/PropertyMapper$Source
+[0.995s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/web/ResourceProperties$Cache$Cachecontrol has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/web/ResourceProperties$Cache$Cachecontrol
+[0.995s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/web/ResourceProperties$Cache$Cachecontrol has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/web/ResourceProperties$Cache$Cachecontrol
+[0.995s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/web/ResourceProperties$Cache$Cachecontrol has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/web/ResourceProperties$Cache$Cachecontrol
+[0.995s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/web/ResourceProperties$Cache$Cachecontrol has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/web/ResourceProperties$Cache$Cachecontrol
+[0.995s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/web/ResourceProperties$Cache$Cachecontrol has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/web/ResourceProperties$Cache$Cachecontrol
+[0.995s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/web/ResourceProperties$Cache$Cachecontrol has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/web/ResourceProperties$Cache$Cachecontrol
+[0.995s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/web/ResourceProperties$Cache$Cachecontrol has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/web/ResourceProperties$Cache$Cachecontrol
+[0.995s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/web/ResourceProperties$Cache$Cachecontrol has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/web/ResourceProperties$Cache$Cachecontrol
+[0.995s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/web/ResourceProperties$Cache$Cachecontrol has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/web/ResourceProperties$Cache$Cachecontrol
+[0.995s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/web/ResourceProperties$Cache$Cachecontrol has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/web/ResourceProperties$Cache$Cachecontrol
+[0.996s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/web/ResourceProperties$Cache$Cachecontrol has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/web/ResourceProperties$Cache$Cachecontrol
+[0.996s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/web/ResourceProperties$Cache$Cachecontrol has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/web/ResourceProperties$Cache$Cachecontrol
+[0.996s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/web/ResourceProperties$Cache$Cachecontrol has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/web/ResourceProperties$Cache$Cachecontrol
+[0.996s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/web/ResourceProperties$Cache$Cachecontrol has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/web/ResourceProperties$Cache$Cachecontrol
+[0.996s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/web/ResourceProperties$Cache$Cachecontrol has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/web/ResourceProperties$Cache$Cachecontrol
+[0.996s][warning][cds] resolve_indy for class org/springframework/web/reactive/config/ResourceHandlerRegistry has encountered exception: java.lang.NoClassDefFoundError org/springframework/web/reactive/config/ResourceHandlerRegistry
+[0.996s][warning][cds] resolve_indy for class org/springframework/web/reactive/config/WebFluxConfigurerComposite has encountered exception: java.lang.NoClassDefFoundError org/springframework/web/reactive/config/WebFluxConfigurerComposite
+[0.997s][warning][cds] resolve_indy for class org/springframework/core/ReactiveAdapterRegistry$ReactorRegistrar has encountered exception: java.lang.NoClassDefFoundError org/springframework/core/ReactiveAdapterRegistry$ReactorRegistrar
+[0.997s][warning][cds] resolve_indy for class org/springframework/core/ReactiveAdapterRegistry$ReactorRegistrar has encountered exception: java.lang.NoClassDefFoundError org/springframework/core/ReactiveAdapterRegistry$ReactorRegistrar
+[0.997s][warning][cds] resolve_indy for class org/springframework/core/ReactiveAdapterRegistry$ReactorRegistrar has encountered exception: java.lang.NoClassDefFoundError org/springframework/core/ReactiveAdapterRegistry$ReactorRegistrar
+[0.997s][warning][cds] resolve_indy for class org/springframework/core/ReactiveAdapterRegistry$ReactorRegistrar has encountered exception: java.lang.NoClassDefFoundError org/springframework/core/ReactiveAdapterRegistry$ReactorRegistrar
+[0.997s][warning][cds] resolve_indy for class org/springframework/core/ReactiveAdapterRegistry$ReactorRegistrar has encountered exception: java.lang.NoClassDefFoundError org/springframework/core/ReactiveAdapterRegistry$ReactorRegistrar
+[0.997s][warning][cds] resolve_indy for class org/springframework/core/ReactiveAdapterRegistry$ReactorRegistrar has encountered exception: java.lang.NoClassDefFoundError org/springframework/core/ReactiveAdapterRegistry$ReactorRegistrar
+[0.997s][warning][cds] resolve_indy for class org/springframework/core/ReactiveAdapterRegistry$ReactorRegistrar has encountered exception: java.lang.NoClassDefFoundError org/springframework/core/ReactiveAdapterRegistry$ReactorRegistrar
+[0.998s][warning][cds] resolve_indy for class org/springframework/core/ReactiveAdapterRegistry$ReactorRegistrar has encountered exception: java.lang.NoClassDefFoundError org/springframework/core/ReactiveAdapterRegistry$ReactorRegistrar
+[0.998s][warning][cds] resolve_indy for class org/springframework/core/ReactiveAdapterRegistry$ReactorRegistrar has encountered exception: java.lang.NoClassDefFoundError org/springframework/core/ReactiveAdapterRegistry$ReactorRegistrar
+[0.998s][warning][cds] resolve_indy for class org/springframework/core/ReactiveAdapterRegistry$ReactorRegistrar has encountered exception: java.lang.NoClassDefFoundError org/springframework/core/ReactiveAdapterRegistry$ReactorRegistrar
+[0.999s][warning][cds] resolve_indy for class org/springframework/core/ReactiveAdapterRegistry$ReactorRegistrar has encountered exception: java.lang.NoClassDefFoundError org/springframework/core/ReactiveAdapterRegistry$ReactorRegistrar
+[0.999s][warning][cds] resolve_indy for class org/springframework/core/ReactiveAdapterRegistry$ReactorRegistrar has encountered exception: java.lang.NoClassDefFoundError org/springframework/core/ReactiveAdapterRegistry$ReactorRegistrar
+[0.999s][warning][cds] resolve_indy for class reactor/core/publisher/Flux has encountered exception: java.lang.NoClassDefFoundError reactor/core/publisher/Flux
+[0.999s][warning][cds] resolve_indy for class reactor/core/publisher/Flux has encountered exception: java.lang.NoClassDefFoundError reactor/core/publisher/Flux
+[0.999s][warning][cds] resolve_indy for class reactor/core/publisher/Flux has encountered exception: java.lang.NoClassDefFoundError reactor/core/publisher/Flux
+[0.999s][warning][cds] resolve_indy for class reactor/core/publisher/Flux has encountered exception: java.lang.NoClassDefFoundError reactor/core/publisher/Flux
+[0.999s][warning][cds] resolve_indy for class reactor/core/publisher/Flux has encountered exception: java.lang.NoClassDefFoundError reactor/core/publisher/Flux
+[1.000s][warning][cds] resolve_indy for class org/springframework/core/ReactiveAdapterRegistry$ReactorJdkFlowAdapterRegistrar has encountered exception: java.lang.NoClassDefFoundError org/springframework/core/ReactiveAdapterRegistry$ReactorJdkFlowAdapterRegistrar
+[1.000s][warning][cds] resolve_indy for class org/springframework/core/ReactiveAdapterRegistry$ReactorJdkFlowAdapterRegistrar has encountered exception: java.lang.NoClassDefFoundError org/springframework/core/ReactiveAdapterRegistry$ReactorJdkFlowAdapterRegistrar
+[1.000s][warning][cds] resolve_indy for class org/springframework/core/ReactiveAdapterRegistry$ReactorJdkFlowAdapterRegistrar has encountered exception: java.lang.NoClassDefFoundError org/springframework/core/ReactiveAdapterRegistry$ReactorJdkFlowAdapterRegistrar
+[1.000s][warning][cds] resolve_indy for class org/springframework/web/reactive/config/WebFluxConfigurerComposite has encountered exception: java.lang.NoClassDefFoundError org/springframework/web/reactive/config/WebFluxConfigurerComposite
+[1.000s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/web/reactive/WebFluxAutoConfiguration$WebFluxConfig has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/web/reactive/WebFluxAutoConfiguration$WebFluxConfig
+[1.000s][warning][cds] resolve_indy for class org/springframework/web/reactive/result/method/annotation/ControllerMethodResolver has encountered exception: java.lang.NoClassDefFoundError org/springframework/web/reactive/result/method/annotation/ControllerMethodResolver
+[1.000s][warning][cds] resolve_indy for class org/springframework/web/reactive/result/method/annotation/ControllerMethodResolver has encountered exception: java.lang.NoClassDefFoundError org/springframework/web/reactive/result/method/annotation/ControllerMethodResolver
+[1.000s][warning][cds] resolve_indy for class org/springframework/web/reactive/result/method/annotation/ControllerMethodResolver has encountered exception: java.lang.NoClassDefFoundError org/springframework/web/reactive/result/method/annotation/ControllerMethodResolver
+[1.000s][warning][cds] resolve_indy for class org/springframework/web/reactive/result/method/annotation/ControllerMethodResolver has encountered exception: java.lang.NoClassDefFoundError org/springframework/web/reactive/result/method/annotation/ControllerMethodResolver
+[1.000s][warning][cds] resolve_indy for class org/springframework/web/reactive/result/method/annotation/AbstractMessageReaderArgumentResolver has encountered exception: java.lang.NoClassDefFoundError org/springframework/web/reactive/result/method/annotation/AbstractMessageReaderArgumentResolver
+[1.000s][warning][cds] resolve_indy for class org/springframework/web/method/ControllerAdviceBean has encountered exception: java.lang.NoClassDefFoundError org/springframework/web/method/ControllerAdviceBean
+[1.000s][warning][cds] resolve_indy for class org/springframework/web/method/ControllerAdviceBean has encountered exception: java.lang.NoClassDefFoundError org/springframework/web/method/ControllerAdviceBean
+[1.000s][warning][cds] resolve_indy for class org/springframework/web/reactive/config/WebFluxConfigurerComposite has encountered exception: java.lang.NoClassDefFoundError org/springframework/web/reactive/config/WebFluxConfigurerComposite
+[1.000s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/web/reactive/WebFluxAutoConfiguration$WebFluxConfig has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/web/reactive/WebFluxAutoConfiguration$WebFluxConfig
+[1.001s][warning][cds] resolve_indy for class reactor/core/publisher/Mono has encountered exception: java.lang.NoClassDefFoundError reactor/core/publisher/Mono
+[1.001s][warning][cds] resolve_indy for class org/springframework/web/server/adapter/WebHttpHandlerBuilder has encountered exception: java.lang.NoClassDefFoundError org/springframework/web/server/adapter/WebHttpHandlerBuilder
+[1.001s][warning][cds] resolve_indy for class org/springframework/web/server/adapter/WebHttpHandlerBuilder has encountered exception: java.lang.NoClassDefFoundError org/springframework/web/server/adapter/WebHttpHandlerBuilder
+[1.001s][warning][cds] resolve_indy for class org/springframework/web/server/adapter/WebHttpHandlerBuilder has encountered exception: java.lang.NoClassDefFoundError org/springframework/web/server/adapter/WebHttpHandlerBuilder
+[1.001s][warning][cds] resolve_indy for class org/springframework/web/server/adapter/WebHttpHandlerBuilder has encountered exception: java.lang.NoClassDefFoundError org/springframework/web/server/adapter/WebHttpHandlerBuilder
+[1.002s][warning][cds] resolve_indy for class org/springframework/web/server/adapter/HttpWebHandlerAdapter has encountered exception: java.lang.NoClassDefFoundError org/springframework/web/server/adapter/HttpWebHandlerAdapter
+[1.002s][warning][cds] resolve_indy for class org/springframework/web/server/adapter/HttpWebHandlerAdapter has encountered exception: java.lang.NoClassDefFoundError org/springframework/web/server/adapter/HttpWebHandlerAdapter
+[1.004s][warning][cds] resolve_indy for class org/springframework/core/Constants has encountered exception: java.lang.NoClassDefFoundError org/springframework/core/Constants
+[1.077s][warning][cds] resolve_indy for class org/springframework/boot/task/TaskExecutorBuilder has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/task/TaskExecutorBuilder
+[1.077s][warning][cds] resolve_indy for class org/springframework/boot/task/TaskSchedulerBuilder has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/task/TaskSchedulerBuilder
+[1.077s][warning][cds] resolve_indy for class org/springframework/http/client/reactive/ReactorClientHttpConnector has encountered exception: java.lang.NoClassDefFoundError org/springframework/http/client/reactive/ReactorClientHttpConnector
+[1.078s][warning][cds] resolve_indy for class reactor/netty/tcp/TcpClient has encountered exception: java.lang.NoClassDefFoundError reactor/netty/tcp/TcpClient
+[1.078s][warning][cds] resolve_indy for class reactor/netty/http/client/HttpClient has encountered exception: java.lang.NoClassDefFoundError reactor/netty/http/client/HttpClient
+[1.078s][warning][cds] resolve_indy for class reactor/netty/http/client/HttpClient has encountered exception: java.lang.NoClassDefFoundError reactor/netty/http/client/HttpClient
+[1.078s][warning][cds] resolve_indy for class reactor/netty/http/client/HttpClient has encountered exception: java.lang.NoClassDefFoundError reactor/netty/http/client/HttpClient
+[1.078s][warning][cds] resolve_indy for class reactor/netty/http/client/HttpClient has encountered exception: java.lang.NoClassDefFoundError reactor/netty/http/client/HttpClient
+[1.078s][warning][cds] resolve_indy for class reactor/netty/http/client/HttpClient has encountered exception: java.lang.NoClassDefFoundError reactor/netty/http/client/HttpClient
+[1.078s][warning][cds] resolve_indy for class reactor/netty/http/client/HttpClient has encountered exception: java.lang.NoClassDefFoundError reactor/netty/http/client/HttpClient
+[1.078s][warning][cds] resolve_indy for class reactor/netty/http/client/HttpClient has encountered exception: java.lang.NoClassDefFoundError reactor/netty/http/client/HttpClient
+[1.079s][warning][cds] resolve_indy for class reactor/netty/http/client/HttpClient has encountered exception: java.lang.NoClassDefFoundError reactor/netty/http/client/HttpClient
+[1.079s][warning][cds] resolve_indy for class reactor/netty/http/client/HttpClient has encountered exception: java.lang.NoClassDefFoundError reactor/netty/http/client/HttpClient
+[1.079s][warning][cds] resolve_indy for class reactor/netty/http/client/HttpClient has encountered exception: java.lang.NoClassDefFoundError reactor/netty/http/client/HttpClient
+[1.079s][warning][cds] resolve_indy for class reactor/netty/http/client/HttpClientConnect has encountered exception: java.lang.NoClassDefFoundError reactor/netty/http/client/HttpClientConnect
+[1.079s][warning][cds] resolve_indy for class org/springframework/http/client/reactive/ReactorClientHttpConnector has encountered exception: java.lang.NoClassDefFoundError org/springframework/http/client/reactive/ReactorClientHttpConnector
+[1.079s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/web/reactive/function/client/ClientHttpConnectorAutoConfiguration has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/web/reactive/function/client/ClientHttpConnectorAutoConfiguration
+[1.079s][warning][cds] resolve_indy for class org/springframework/http/codec/support/DefaultClientCodecConfigurer has encountered exception: java.lang.NoClassDefFoundError org/springframework/http/codec/support/DefaultClientCodecConfigurer
+[1.079s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/web/reactive/function/client/WebClientAutoConfiguration has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/web/reactive/function/client/WebClientAutoConfiguration
+[1.079s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/web/reactive/function/client/WebClientCodecCustomizer has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/web/reactive/function/client/WebClientCodecCustomizer
+[1.079s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/web/reactive/function/client/WebClientCodecCustomizer has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/web/reactive/function/client/WebClientCodecCustomizer
+[1.080s][warning][cds] resolve_indy for class org/springframework/context/event/EventListenerMethodProcessor has encountered exception: java.lang.NoClassDefFoundError org/springframework/context/event/EventListenerMethodProcessor
+[1.083s][warning][cds] resolve_indy for class org/springframework/jmx/export/MBeanExporter has encountered exception: java.lang.NoClassDefFoundError org/springframework/jmx/export/MBeanExporter
+[1.083s][warning][cds] resolve_indy for class org/springframework/jmx/export/MBeanExporter has encountered exception: java.lang.NoClassDefFoundError org/springframework/jmx/export/MBeanExporter
+[1.083s][warning][cds] resolve_indy for class org/springframework/context/support/DefaultLifecycleProcessor has encountered exception: java.lang.NoClassDefFoundError org/springframework/context/support/DefaultLifecycleProcessor
+[1.083s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/condition/ConditionEvaluationReport has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/condition/ConditionEvaluationReport
+[1.083s][warning][cds] resolve_indy for class org/springframework/boot/autoconfigure/condition/ConditionEvaluationReport has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/autoconfigure/condition/ConditionEvaluationReport
+[1.083s][warning][cds] resolve_indy for class org/springframework/web/reactive/resource/ResourceUrlProvider has encountered exception: java.lang.NoClassDefFoundError org/springframework/web/reactive/resource/ResourceUrlProvider
+[1.083s][warning][cds] resolve_indy for class org/springframework/web/reactive/resource/ResourceUrlProvider has encountered exception: java.lang.NoClassDefFoundError org/springframework/web/reactive/resource/ResourceUrlProvider
+[1.083s][warning][cds] resolve_indy for class org/springframework/boot/web/reactive/context/ReactiveWebServerApplicationContext has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/web/reactive/context/ReactiveWebServerApplicationContext
+[1.083s][warning][cds] resolve_indy for class org/springframework/boot/web/embedded/netty/NettyReactiveWebServerFactory has encountered exception: java.lang.NoClassDefFoundError org/springframework/boot/web/embedded/netty/NettyReactiveWebServerFactory
+[1.083s][warning][cds] resolve_indy for class reactor/netty/tcp/TcpServer has encountered exception: java.lang.NoClassDefFoundError reactor/netty/tcp/TcpServer
+[1.083s][warning][cds] resolve_indy for class reactor/netty/http/server/HttpServer has encountered exception: java.lang.NoClassDefFoundError reactor/netty/http/server/HttpServer
+[1.083s][warning][cds] resolve_indy for class reactor/netty/http/server/HttpServerConfiguration has encountered exception: java.lang.NoClassDefFoundError reactor/netty/http/server/HttpServerConfiguration
+[1.084s][warning][cds] resolve_indy for class reactor/netty/http/server/HttpServerConfiguration has encountered exception: java.lang.NoClassDefFoundError reactor/netty/http/server/HttpServerConfiguration
+[1.084s][warning][cds] resolve_indy for class reactor/netty/http/server/HttpServerConfiguration has encountered exception: java.lang.NoClassDefFoundError reactor/netty/http/server/HttpServerConfiguration
+[1.084s][warning][cds] resolve_indy for class reactor/netty/http/server/HttpServerConfiguration has encountered exception: java.lang.NoClassDefFoundError reactor/netty/http/server/HttpServerConfiguration
+[1.084s][warning][cds] resolve_indy for class reactor/netty/http/server/HttpRequestDecoderSpec has encountered exception: java.lang.NoClassDefFoundError reactor/netty/http/server/HttpRequestDecoderSpec
+[1.085s][warning][cds] resolve_indy for class reactor/netty/ReactorNetty has encountered exception: java.lang.NoClassDefFoundError reactor/netty/ReactorNetty
+[1.085s][warning][cds] resolve_indy for class reactor/netty/ReactorNetty has encountered exception: java.lang.NoClassDefFoundError reactor/netty/ReactorNetty
+[1.085s][warning][cds] resolve_indy for class reactor/netty/tcp/TcpServerBind has encountered exception: java.lang.NoClassDefFoundError reactor/netty/tcp/TcpServerBind
+[1.085s][warning][cds] resolve_indy for class reactor/netty/channel/ChannelOperations has encountered exception: java.lang.NoClassDefFoundError reactor/netty/channel/ChannelOperations
+[1.092s][warning][cds] resolve_indy for class reactor/core/scheduler/Schedulers has encountered exception: java.lang.NoClassDefFoundError reactor/core/scheduler/Schedulers
+[1.092s][warning][cds] resolve_indy for class reactor/core/scheduler/Schedulers has encountered exception: java.lang.NoClassDefFoundError reactor/core/scheduler/Schedulers
+[1.092s][warning][cds] resolve_indy for class reactor/core/scheduler/Schedulers has encountered exception: java.lang.NoClassDefFoundError reactor/core/scheduler/Schedulers
+[1.092s][warning][cds] resolve_indy for class reactor/core/scheduler/Schedulers has encountered exception: java.lang.NoClassDefFoundError reactor/core/scheduler/Schedulers
+[1.092s][warning][cds] resolve_indy for class reactor/core/scheduler/Schedulers has encountered exception: java.lang.NoClassDefFoundError reactor/core/scheduler/Schedulers
+[1.092s][warning][cds] resolve_indy for class org/springframework/beans/CachedIntrospectionResults has encountered exception: java.lang.NoClassDefFoundError org/springframework/beans/CachedIntrospectionResults
+[1.093s][warning][cds] resolve_indy for class org/springframework/beans/CachedIntrospectionResults has encountered exception: java.lang.NoClassDefFoundError org/springframework/beans/CachedIntrospectionResults
+[1.093s][warning][cds] resolve_indy for class org/springframework/beans/CachedIntrospectionResults has encountered exception: java.lang.NoClassDefFoundError org/springframework/beans/CachedIntrospectionResults
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.0.RELEASE)
+
+2021-12-15 12:59:10.315  INFO 9744 --- [           main] com.example.DemoApplication              : Starting DemoApplication v0.0.1-SNAPSHOT on v1-0064 with PID 9744 (C:\DEVELOPMENT\SPRING\WORKSPACE_STS3\spring-boot-startup-mybench-master\demo-flux\target\demo-flux-0.0.1-SNAPSHOT.jar started by Vikrant Verma in C:\DEVELOPMENT\SPRING\WORKSPACE_STS3\spring-boot-startup-mybench-master\benchmarks\target)
+2021-12-15 12:59:10.365  INFO 9744 --- [           main] com.example.DemoApplication              : No active profile set, falling back to default profiles: default
+2021-12-15 12:59:22.108  WARN 9744 --- [           main] reactor.netty.tcp.TcpResources           : [http] resources will use the default LoopResources: DefaultLoopResources {prefix=reactor-http, daemon=true, selectCount=8, workerCount=8}
+2021-12-15 12:59:22.108  WARN 9744 --- [           main] reactor.netty.tcp.TcpResources           : [http] resources will use the default ConnectionProvider: PooledConnectionProvider {name=http, poolFactory=reactor.netty.resources.ConnectionProvider$$Lambda$252/0x000000080163ca38@5b7a5baa}
+2021-12-15 12:59:24.565  INFO 9744 --- [           main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 57507
+2021-12-15 12:59:24.585  INFO 9744 --- [           main] com.example.DemoApplication              : Started DemoApplication in 16.288 seconds (JVM running for 17.766)
+
+17.931 s/op
+Iteration   1: 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.1.0.RELEASE)
+
+2021-12-15 12:59:25.521  INFO 8012 --- [           main] com.example.DemoApplication              : Starting DemoApplication v0.0.1-SNAPSHOT on v1-0064 with PID 8012 (C:\DEVELOPMENT\SPRING\WORKSPACE_STS3\spring-boot-startup-mybench-master\demo-flux\target\demo-flux-0.0.1-SNAPSHOT.jar started by Vikrant Verma in C:\DEVELOPMENT\SPRING\WORKSPACE_STS3\spring-boot-startup-mybench-master\benchmarks\target)
+2021-12-15 12:59:25.524  INFO 8012 --- [           main] com.example.DemoApplication              : No active profile set, falling back to default profiles: default
+2021-12-15 12:59:34.312  WARN 8012 --- [           main] reactor.netty.tcp.TcpResources           : [http] resources will use the default LoopResources: DefaultLoopResources {prefix=reactor-http, daemon=true, selectCount=8, workerCount=8}
+2021-12-15 12:59:34.312  WARN 8012 --- [           main] reactor.netty.tcp.TcpResources           : [http] resources will use the default ConnectionProvider: PooledConnectionProvider {name=http, poolFactory=reactor.netty.resources.ConnectionProvider$$Lambda$252/0x000000080163c410@292b08d6}
+2021-12-15 12:59:35.093  INFO 8012 --- [           main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port(s): 57524
+2021-12-15 12:59:35.107  INFO 8012 --- [           main] com.example.DemoApplication              : Started DemoApplication in 9.924 seconds (JVM running for 10.376)
+
+10.495 s/op
+
+
+
+# JMH version: 1.21
+# VM version: JDK 16.0.1, Java HotSpot(TM) 64-Bit Server VM, 16.0.1+9-24
+# VM invoker: C:\Program Files\Java\jdk16.0.1\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8 -XX:+ShowCodeDetailsInExceptionMessages
+# Warmup: 1 iterations, single-shot each
+# Measurement: 1 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: com.example.MyBenchmark.case13_Exploded
+
+# Run progress: 80.00% complete, ETA 00:01:42
+# Fork: 1 of 1
+# Warmup Iteration   1: Exception in thread "main" java.lang.NoClassDefFoundError: org/springframework/boot/SpringApplication
+	at com.example.DemoApplication.main(DemoApplication.java:18)
+Caused by: java.lang.ClassNotFoundException: org.springframework.boot.SpringApplication
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:636)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:182)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:519)
+	... 1 more
+
+0.218 s/op
+Iteration   1: Exception in thread "main" java.lang.NoClassDefFoundError: org/springframework/boot/SpringApplication
+	at com.example.DemoApplication.main(DemoApplication.java:18)
+Caused by: java.lang.ClassNotFoundException: org.springframework.boot.SpringApplication
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:636)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:182)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:519)
+	... 1 more
+
+0.095 s/op
+
+
+
+# JMH version: 1.21
+# VM version: JDK 16.0.1, Java HotSpot(TM) 64-Bit Server VM, 16.0.1+9-24
+# VM invoker: C:\Program Files\Java\jdk16.0.1\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8 -XX:+ShowCodeDetailsInExceptionMessages
+# Warmup: 1 iterations, single-shot each
+# Measurement: 1 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: com.example.MyBenchmark.case14_ExplodedWithAppCds
+
+# Run progress: 86.67% complete, ETA 00:01:04
+# Fork: 1 of 1
+# Warmup Iteration   1: Exception in thread "main" java.lang.NoClassDefFoundError: org/springframework/boot/SpringApplication
+	at com.example.DemoApplication.main(DemoApplication.java:18)
+Caused by: java.lang.ClassNotFoundException: org.springframework.boot.SpringApplication
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:636)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:182)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:519)
+	... 1 more
+
+
+Exception in thread "main" java.lang.NoClassDefFoundError: org/springframework/boot/SpringApplication
+	at com.example.DemoApplication.main(DemoApplication.java:18)
+Caused by: java.lang.ClassNotFoundException: org.springframework.boot.SpringApplication
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:636)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:182)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:519)
+	... 1 more
+
+0.236 s/op
+Iteration   1: Exception in thread "main" java.lang.NoClassDefFoundError: org/springframework/boot/SpringApplication
+	at com.example.DemoApplication.main(DemoApplication.java:18)
+Caused by: java.lang.ClassNotFoundException: org.springframework.boot.SpringApplication
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:636)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:182)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:519)
+	... 1 more
+
+0.157 s/op
+
+
+
+# JMH version: 1.21
+# VM version: JDK 16.0.1, Java HotSpot(TM) 64-Bit Server VM, 16.0.1+9-24
+# VM invoker: C:\Program Files\Java\jdk16.0.1\bin\java.exe
+# VM options: -Dfile.encoding=UTF-8 -XX:+ShowCodeDetailsInExceptionMessages
+# Warmup: 1 iterations, single-shot each
+# Measurement: 1 iterations, single-shot each
+# Timeout: 10 min per iteration
+# Threads: 1 thread
+# Benchmark mode: Single shot invocation time
+# Benchmark: com.example.MyBenchmark.case15_AllApplied
+
+# Run progress: 93.33% complete, ETA 00:00:30
+# Fork: 1 of 1
+# Warmup Iteration   1: Exception in thread "main" java.lang.NoClassDefFoundError: org/springframework/boot/SpringApplication
+	at com.example.DemoApplication.main(DemoApplication.java:18)
+Caused by: java.lang.ClassNotFoundException: org.springframework.boot.SpringApplication
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:636)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:182)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:519)
+	... 1 more
+
+
+Java HotSpot(TM) 64-Bit Server VM warning: Options -Xverify:none and -noverify were deprecated in JDK 13 and will likely be removed in a future release.
+Exception in thread "main" java.lang.NoClassDefFoundError: org/springframework/boot/SpringApplication
+	at com.example.DemoApplication.main(DemoApplication.java:18)
+Caused by: java.lang.ClassNotFoundException: org.springframework.boot.SpringApplication
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:636)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:182)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:519)
+	... 1 more
+
+0.092 s/op
+Iteration   1: Java HotSpot(TM) 64-Bit Server VM warning: Options -Xverify:none and -noverify were deprecated in JDK 13 and will likely be removed in a future release.
+Exception in thread "main" java.lang.NoClassDefFoundError: org/springframework/boot/SpringApplication
+	at com.example.DemoApplication.main(DemoApplication.java:18)
+Caused by: java.lang.ClassNotFoundException: org.springframework.boot.SpringApplication
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:636)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:182)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:519)
+	... 1 more
+
+0.078 s/op
+
+
+
+# Run complete. Total time: 00:07:23
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                          Mode  Cnt   Score   Error  Units
+MyBenchmark.case01_FluxBaseline                      ss       10.661           s/op
+MyBenchmark.case02_Web                               ss       10.781           s/op
+MyBenchmark.case03_WithContextIndexer                ss       10.648           s/op
+MyBenchmark.case04_WithLazyInit                      ss       17.923           s/op
+MyBenchmark.case05_WithNoVerifyOption                ss       10.294           s/op
+MyBenchmark.case06_WithTieredStopAtLevel1Option      ss       11.568           s/op
+MyBenchmark.case07_WithSpringConfigLocationOption    ss       17.445           s/op
+MyBenchmark.case08_WithJmxDisabledOption             ss       10.500           s/op
+MyBenchmark.case09_WithoutLogback                    ss       10.478           s/op
+MyBenchmark.case10_WithoutJackson                    ss       10.477           s/op
+MyBenchmark.case11_WithoutHibernateValidator         ss       10.621           s/op
+MyBenchmark.case12_WithAppCds                        ss       10.495           s/op
+MyBenchmark.case13_Exploded                          ss        0.095           s/op
+MyBenchmark.case14_ExplodedWithAppCds                ss        0.157           s/op
+MyBenchmark.case15_AllApplied                        ss        0.078           s/op
